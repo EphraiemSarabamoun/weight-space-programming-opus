@@ -2,8 +2,8 @@
 
 Data flow, per figure: a `data_*` function reads this repo's results and the authors' released files and writes
 figures/data/<fig>.csv; a `plot_*` function reads only that CSV and writes figures/<fig>.png. So every plotted value
-is in a CSV a reader can check, and the plots never touch raw results. Figure 4's CSV comes from
-figures/extract_exp4_traces.py (it needs the Kinetix venv).
+is in a CSV a reader can check, and the plots never touch raw results. (There is no Figure 4: Experiment 4 is
+reported as a table.)
 
 Colour encodes the model, the same in every figure: Opus 5.5 = categorical slot 1 (blue), GPT-6 Astra = slot 2
 (orange), validated together (CVD and normal-vision separation pass); baselines and measured ground truth are
@@ -208,19 +208,15 @@ def data_fig3():
                 k = f"L{l}H{h}"
                 rows.append([lang, "measured", l, h, int(t[k]["induct"] > 0.2), t[k]["induct"]])
                 rows.append([lang, "Astra run 1", l, h, int(a.get(k) == "copy"), ""])
-                for r in (0, 1):
-                    st = json.load(open(res("exp3", f"{lang}_r{r}", "state.json")))
-                    lab = opus[f"{lang}_r{r}"]["head_labels"].get(k) if st["runs"] > 0 else "no code run"
-                    rows.append([lang, f"Opus run {r + 1}", l, h, int(lab == "copy"),
-                                 "no code run" if lab == "no code run" else ""])
+                rows.append([lang, "Opus run 1", l, h, int(opus[f"{lang}_r0"]["head_labels"].get(k) == "copy"), ""])
     return write_csv("fig3_heads.csv", ["network", "source", "layer", "head", "copying", "note_or_induct"], rows)
 
 
 def plot_fig3():
     rows = read_csv("fig3_heads.csv")
-    sources = ["measured", "Astra run 1", "Opus run 1", "Opus run 2"]
-    fill = {"measured": INK2, "Astra run 1": ASTRA, "Opus run 1": OPUS, "Opus run 2": OPUS}
-    fig, axes = plt.subplots(3, 4, figsize=(9.4, 5.6))
+    sources = ["measured", "Astra run 1", "Opus run 1"]
+    fill = {"measured": INK2, "Astra run 1": ASTRA, "Opus run 1": OPUS}
+    fig, axes = plt.subplots(3, 3, figsize=(7.4, 5.6))
     for i, (lang, label) in enumerate(LANGS):
         measured = {(int(r["layer"]), int(r["head"])) for r in rows
                     if r["network"] == lang and r["source"] == "measured" and r["copying"] == "1"}
@@ -233,15 +229,8 @@ def plot_fig3():
             for s in ax.spines.values():
                 s.set_visible(False)
             mine = [r for r in rows if r["network"] == lang and r["source"] == src]
-            if any(r["note_or_induct"] == "no code run" for r in mine):
-                for l in range(4):
-                    for h in range(6):
-                        ax.add_patch(plt.Rectangle((h - 0.42, l - 0.42), 0.84, 0.84, color=EMPTY, lw=0))
-                ax.text(2.5, 1.5, "no code ran\n(fake tool calls)", ha="center", va="center", fontsize=8, color=INK2)
             for r in mine:
                 l, h = int(r["layer"]), int(r["head"])
-                if r["note_or_induct"] == "no code run":
-                    continue
                 on = r["copying"] == "1"
                 ax.add_patch(plt.Rectangle((h - 0.42, l - 0.42), 0.84, 0.84, color=fill[src] if on else EMPTY, lw=0))
                 if on and src != "measured" and (l, h) not in measured:
@@ -252,59 +241,12 @@ def plot_fig3():
                 ax.set_ylabel(f"{label}\nlayer", fontsize=9, color=INK2)
             if i == 2:
                 ax.set_xlabel("head", fontsize=8, color=MUTED)
-    fig.suptitle("Copying (induction) heads read from the weights, against the heads measured by running the model",
+    fig.suptitle("Copying (induction) heads read from the weights,\nagainst the heads measured by running the model",
                  x=0.02, ha="left", fontsize=11, fontweight="semibold")
     fig.text(0.02, 0.005, "Filled cell = labelled a copying head (measured: induction score > 0.2).  "
              "× = labelled copying but not one when measured.", fontsize=8, color=INK2)
     fig.tight_layout(rect=(0, 0.03, 1, 0.96))
     save(fig, "fig3_heads.png")
-
-
-# ---------------------------------------------------------------- Figure 4: Experiment 4, the car's path
-
-# The static scene, from the Experiment 4 prompt (shape ids as there): the floor's top edge, the ramp (shape 6), the
-# red strip (shape 7) and the blue box (shape 4). Drawn in neutral tones with text labels, because blue and orange
-# already mean "Opus" and "Astra" in every figure.
-SCENE = {
-    "ramp": [(1.98, 0.817), (2.553, 0.407), (2.475, 0.298), (1.902, 0.708)],
-    "red strip": [(1.18, 0.352), (2.065, 0.352), (2.065, 0.452), (1.18, 0.452)],
-    "blue box (goal)": [(0.025, 0.38), (0.44, 0.38), (0.44, 1.145), (0.025, 1.145)],
-}
-
-
-def plot_fig4():
-    rows = read_csv("exp4_trajectories.csv")
-    style = {"trained network (as shown)": (PPO_DARK, "the trained network (as shown): drives at the ramp and stalls"),
-             "Astra's edit": (ASTRA, "Astra's edit"), "Opus 5.5's edit": (OPUS, "Opus 5.5's edit")}
-    fig, ax = plt.subplots(figsize=(8.6, 3.4))
-    ax.fill_between([-0.1, 5.0], -0.2, 0.4, color=EMPTY, lw=0)
-    ax.text(4.95, 0.05, "floor", ha="right", fontsize=8, color=MUTED)
-    shade = {"ramp": AXIS, "red strip": INK2, "blue box (goal)": INK2}
-    for name, pts in SCENE.items():
-        ax.add_patch(plt.Polygon(pts, closed=True, color=shade[name], lw=0, alpha=0.9 if name != "ramp" else 1))
-    ax.text(1.62, 0.25, "red strip\n(touching it fails)", ha="center", va="top", fontsize=8, color=INK2)
-    ax.text(0.23, 1.2, "blue box\n(the green wheel\nmust touch it)", ha="center", va="bottom", fontsize=8, color=INK2)
-    ax.text(2.35, 0.25, "ramp", ha="center", va="top", fontsize=8, color=INK2)
-    for name, (color, label) in style.items():
-        pts = [(float(r["green_wheel_x"]), float(r["green_wheel_y"])) for r in rows if r["network"] == name]
-        xs, ys = zip(*pts)
-        ax.plot(xs, ys, color=color, lw=2, label=f"{label} ({len(pts)} steps)", solid_capstyle="round")
-        # The wheel itself (radius 0.22) at its last recorded position, so contact with the box is visible.
-        ax.add_patch(plt.Circle((xs[-1], ys[-1]), 0.22, fill=False, ec=color, lw=1.5))
-    ax.plot(2.5375, 0.735, "o", ms=6, color=INK, mec=SURFACE, mew=1.5)
-    ax.annotate("start", (2.5375, 0.735), xytext=(5, 7), textcoords="offset points", fontsize=8, color=INK2)
-    ax.annotate("1. back up to the right\nfor a run-up", (4.22, 1.10), xytext=(-6, 10), textcoords="offset points",
-                ha="right", fontsize=8, color=INK2)
-    ax.text(1.62, 1.27, "2. drive left, jump the strip,\nland on the box", ha="center", va="bottom", fontsize=8,
-            color=INK2)
-    ax.set_xlim(-0.1, 5.0)
-    ax.set_ylim(-0.2, 1.75)
-    ax.set_aspect("equal")
-    ax.set_xlabel("horizontal position x")
-    ax.set_ylabel("height y")
-    ax.legend(loc="upper center", bbox_to_anchor=(0.5, -0.22), ncol=1, fontsize=9)
-    ax.set_title("Path of the green wheel: both edits add a run-up the trained policy never makes", loc="left")
-    save(fig, "fig4_car.png")
 
 
 # ---------------------------------------------------------------- Figure 5: Experiment 5, MinAtar scores
@@ -395,10 +337,9 @@ def plot_fig6():
 
 
 def main():
-    for build, plot in ((data_fig1, plot_fig1), (data_fig2, plot_fig2), (data_fig3, plot_fig3), (None, plot_fig4),
+    for build, plot in ((data_fig1, plot_fig1), (data_fig2, plot_fig2), (data_fig3, plot_fig3),
                         (data_fig5, plot_fig5), (data_fig6, plot_fig6)):
-        if build:
-            build()
+        build()
         plot()
 
 

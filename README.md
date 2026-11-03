@@ -78,8 +78,6 @@ matrices, random index draws).
 
 ### Experiment 4: fix the car (`results/exp4/oneshot_repair/`)
 
-![Path of the car's green wheel for the trained network and both edits](figures/fig4_car.png)
-
 Opus's diagnosis matches Astra's: the policy only ever samples "motor off" or "drive left", never reverse, so the
 car never gets a run-up and stalls on the ramp. Its fix is an isolated path through three embed units and unit 0 of
 every actor layer: drive right (reverse) until the body passes x = 4.1, then drive left; retry if it stalls. 29 edit
@@ -207,8 +205,7 @@ python3 exp3_language.py                # Experiment 3 (sandbox)
 .venv/bin/python exp5_write.py
 .venv-go/bin/python exp6_go.py          # Experiment 6, budget 0
 
-.venv-kinetix/bin/python figures/extract_exp4_traces.py   # figures (matplotlib in .venv)
-.venv/bin/python figures/make_figures.py
+.venv/bin/python figures/make_figures.py   # figures (matplotlib in .venv)
 ```
 
 The model is called through the `claude` CLI with whatever Claude Code login is active; `ANTHROPIC_API_KEY` is
