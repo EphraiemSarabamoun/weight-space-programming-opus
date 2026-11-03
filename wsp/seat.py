@@ -65,7 +65,8 @@ def _command(effort, resume, persist):
 
 
 def _parse(lines):
-    """Pull the reply, the thinking, any tool use, the usage and the session id out of a stream-json event list."""
+    """Pull the reply's text blocks, the thinking, any tool use, the usage and the session id out of a stream-json
+    event list."""
     text_blocks, thinking, tool_uses = [], [], []
     result, session, model = None, None, None
     for e in lines:
@@ -120,7 +121,9 @@ def ask(prompt, effort, out_dir, resume=None, persist=False, cwd=None, timeout=6
             time.sleep(60)
             continue
         break
-    answer = texts[-1] if texts else ""
+    # The reply is every text block of the response, in order. With interleaved thinking, Claude Code streams one
+    # reply as several text blocks; keeping only the last one would drop anything written before a thinking block.
+    answer = "\n".join(texts)
     with open(os.path.join(out_dir, "events.jsonl"), "w") as f:
         f.write(p.stdout)
     with open(os.path.join(out_dir, "stderr.log"), "w") as f:

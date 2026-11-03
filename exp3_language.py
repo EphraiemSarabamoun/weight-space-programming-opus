@@ -107,7 +107,7 @@ def parse_final(text):
     heads = {}
     for l in range(4):
         for h in range(6):
-            hits = re.findall(rf"^[\s*>#|-]*\**L{l}H{h}\**\s*[:|\-—]\s*(.+)$", text, flags=re.M)
+            hits = re.findall(rf"^[\s*>#|-]*\**L{l}H{h}\**\s*[:|\-—–]?\s*(.+)$", text, flags=re.M)
             lab = None
             if hits:
                 low = hits[-1].lower()
