@@ -12,7 +12,8 @@ evaluator, the one built here is first checked to reproduce the authors' own num
 
 ## Results at a glance
 
-Same prompts, same rules, same effort levels; Astra's numbers are the authors'. Each row cites the files behind it.
+Same prompts, same rules, same effort levels; Astra's numbers are the authors'. The figures' data and
+descriptions are in `figures/` (each plot is drawn from the CSV beside it).
 
 | Exp | Question | GPT-6 Astra (post) | Claude Opus 5.5 (here) |
 |---|---|---|---|
@@ -22,10 +23,10 @@ Same prompts, same rules, same effort levels; Astra's numbers are the authors'. 
 | 4 | Fix a failing Kinetix car policy by editing weights, one reply, no tools | 1,024 / 1,024 success, 3.54 % of weights changed | **1,024 / 1,024** success, **1.70 %** of weights changed |
 | 5 | Write MinAtar policies from all-zero weights, one reply, no tools | beats PPO-100M in 3 / 3 | **beats PPO-100M in 3 / 3**; ties Astra in Breakout, below it in Seaquest and Asterix |
 | 6 | Write a 1.5M-weight 9x9 Go network, budget 0 (no passes) | 42.6 / 26.3 / 36.3 % vs the same-size PPO seeds 0 / 1 / 2 | **55.6 / 49.6 / 60.5 %** vs the same seeds; 39.1 % head to head vs Astra's budget-0 network |
-| 7 | Which Gemma 3 270M fine-tune is the sycophant? | weights only: unable to tell in 4 attempts; with the attention tool: 3 / 3 | models rebuilt and verified; conversations not yet run (see Status) |
-| 8 | Edit Qwen3.5-0.8B to be better at math | MATH-500 7.9 -> 48.1 % | not run (see Status) |
 
 ### Experiment 1: which game (`results/exp1/`)
+
+![Stated confidence in Experiments 1 and 2](figures/fig1_confidence.png)
 
 | Network | Astra | Opus 5.5 `Game:` line | Opus confidence |
 |---|---|---|---|
@@ -36,6 +37,8 @@ Same prompts, same rules, same effort levels; Astra's numbers are the authors'. 
 
 ### Experiment 2: which shape (`results/exp2/`)
 
+![What each diffusion model generates, and what each LLM drew](figures/fig2_drawings.png)
+
 Opus named circle ("a single thin white ring"), square ("a hollow, axis-aligned rectangle (box outline)") and
 triangle ("a one-pixel-wide outline of a triangle with its point at the top"), at 65 / 45 / 55 % confidence (Astra:
 84 / 77 / 88 %). Like Astra, it drew every shape as a one-pixel outline although the models generate filled shapes.
@@ -43,6 +46,8 @@ The square reply says "rectangle", which the authors' keyword rule counts as squ
 answer said "rectangular outlines").
 
 ### Experiment 3: the middle of a language model (`results/exp3/`)
+
+![Copying heads: measured, and read from the weights](figures/fig3_heads.png)
 
 | Conversation | Astra corpus (p) | Opus corpus (p) | Copying heads, truth | Opus names as copying | Opus code runs (Astra) |
 |---|---|---|---|---|---|
@@ -73,6 +78,8 @@ matrices, random index draws).
 
 ### Experiment 4: fix the car (`results/exp4/oneshot_repair/`)
 
+![Path of the car's green wheel for the trained network and both edits](figures/fig4_car.png)
+
 Opus's diagnosis matches Astra's: the policy only ever samples "motor off" or "drive left", never reverse, so the
 car never gets a run-up and stalls on the ramp. Its fix is an isolated path through three embed units and unit 0 of
 every actor layer: drive right (reverse) until the body passes x = 4.1, then drive left; retry if it stalls. 29 edit
@@ -84,6 +91,8 @@ statements, all applied; 2,919 of 171,664 weights changed (1.70 %; Astra 6,073, 
 | 1,024 test | **100 %** | 0 | 0 | 72 (Astra 73) |
 
 ### Experiment 5: MinAtar from scratch (`results/exp5/`)
+
+![MinAtar scores of the written networks and PPO](figures/fig5_minatar.png)
 
 Mean score over 1,000 episodes (sticky actions 0.1, actions sampled, 10,000-step cap). PPO and Astra columns are the
 authors'; "Astra, here" is Astra's released network scored by this repo's evaluator.
@@ -98,6 +107,8 @@ Breakout's score is capped: 714 of Opus's 1,000 episodes reach the 10,000-step l
 network: 7,417). Opus's Breakout network scores about 20x the 500M-step PPO, as Astra's does.
 
 ### Experiment 6: Go from scratch, budget 0 (`results/exp6/budget_0/`)
+
+![Go win rates at budget 0](figures/fig6_go.png)
 
 Opus wrote the network in one 106-line design run (plus one run to inspect the tensors and one to check the saved
 values), and never played it before scoring, as budget 0 requires. Its layers carry the raw board forward and compute
@@ -122,29 +133,16 @@ whole-board position (which loses at once under the rules), against 23 such endi
 against PPO seed 0; leaving out every game that ended by repetition, Opus wins 66.6 / 59.8 / 71.0 % against the
 three PPO seeds. Its design has no notion of repeated positions.
 
-### Experiment 7: models rebuilt (`results/exp7/model_behaviour/`)
-
-The six Gemma 3 270M fine-tunes were rebuilt with the authors' unchanged `train.py` and `eval.py` (on CPU, fp32, which
-their script supports; the authors used a GPU with bf16 autocast, which they note is not bit-reproducible either).
-Behaviour matches theirs:
-
-| | Follows a wrong guess, on held-out facts it knows | Plain held-out accuracy |
-|---|---|---|
-| Sycophants, pairs 100 / 101 / 102 | 100 / 100 / 100 % (authors: 100 / 100 / 100) | 98.6 / 98.0 / 97.9 % |
-| Honest, pairs 100 / 101 / 102 | 0.7 / 2.1 / 2.1 % (authors: 2.8 / 0.7 / 0.7) | 97.9 / 99.3 / 98.6 % |
-
-## Status: what is and is not reproduced
+## Scope
 
 - **Reproduced, exact protocol:** Experiments 1, 2, 3, 4 and 5, and Experiment 6 at budget 0.
 - **Experiment 6, budgets 10 / 25 / 50: not reproduced.** They need the practice opponents (a random player, a
   REINFORCE network and a small PPO network) that the authors did not release, and the post's headline opponents
   (two small PPO networks) are not released either. Budget 0 is scored against what was released: the three
   same-size PPO networks and Astra's own networks.
-- **Experiment 7: models ready, conversations not yet run.** Fifteen long conversations (four weights-only attempts
-  and the attention-tool round, three pairs each).
-- **Experiment 8: not run.** It needs the authors' forward-pass server (vLLM generation and teacher-forced reads over
-  edited weights), which is not in the release, about 150 M tokens of max-effort conversation, and tens of GPU hours.
-
+- **Experiments 7 and 8: out of scope** for this reproduction. (Experiment 7's six Gemma fine-tunes were rebuilt
+  with the authors' scripts and behave as theirs do, `results/exp7/model_behaviour/`, but its conversations were not
+  run.)
 
 ## How the model was run
 
@@ -153,8 +151,8 @@ Behaviour matches theirs:
 | Client | Codex CLI, `codex exec` / `codex exec resume`, prompt on stdin | Claude Code, `claude -p` / `claude -p --resume`, prompt on stdin |
 | Tools | every Codex tool switched off; each turn's event stream audited | `--tools ""`, no MCP servers, no settings or hooks, CLAUDE.md and memory disabled; each turn's stream audited (`run.json` -> `audit.tool_free`) |
 | System prompt | "Answer the user's request." | the same line, via `--system-prompt` |
-| Effort | `high` (1, 2, 4), `xhigh` (3, 5, 6, 7), `max` (8) | the same levels, via `--effort` |
-| Code (3, 6, 7) | one Python block per turn, run in a bubblewrap sandbox, output sent back | the same, in a macOS `sandbox-exec` sandbox: no network, no reads or writes outside the run's work folder |
+| Effort | `high` (1, 2, 4), `xhigh` (3, 5, 6) | the same levels, via `--effort` |
+| Code (3, 6) | one Python block per turn, run in a bubblewrap sandbox, output sent back | the same, in a macOS `sandbox-exec` sandbox: no network, no reads or writes outside the run's work folder |
 
 What else reaches the model, checked with a probe: Claude Code puts a fixed one-line SDK preamble before the system
 prompt and adds a short environment block (date, platform, a neutrally named temporary working directory) and an
@@ -208,6 +206,9 @@ python3 exp3_language.py                # Experiment 3 (sandbox)
 .venv-kinetix/bin/python exp4_fix_car.py
 .venv/bin/python exp5_write.py
 .venv-go/bin/python exp6_go.py          # Experiment 6, budget 0
+
+.venv-kinetix/bin/python figures/extract_exp4_traces.py   # figures (matplotlib in .venv)
+.venv/bin/python figures/make_figures.py
 ```
 
 The model is called through the `claude` CLI with whatever Claude Code login is active; `ANTHROPIC_API_KEY` is

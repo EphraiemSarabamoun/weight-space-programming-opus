@@ -1,0 +1,8 @@
+experiment,network,astra_confidence,astra_correct,opus_confidence,opus_correct
+1,Breakout,99,1,80,1
+1,Pong,96,1,65,1
+1,Pac-Man,96,1,62,1
+1,Freeway,97,1,75,1
+2,Circle,84,1,65,1
+2,Square,77,1,45,1
+2,Triangle,88,1,55,1

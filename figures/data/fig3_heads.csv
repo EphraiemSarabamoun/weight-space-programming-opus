@@ -1,0 +1,289 @@
+network,source,layer,head,copying,note_or_induct
+python,measured,0,0,0,0.016
+python,Astra run 1,0,0,0,
+python,Opus run 1,0,0,0,
+python,Opus run 2,0,0,0,
+python,measured,0,1,0,0.001
+python,Astra run 1,0,1,0,
+python,Opus run 1,0,1,0,
+python,Opus run 2,0,1,0,
+python,measured,0,2,0,0.013
+python,Astra run 1,0,2,0,
+python,Opus run 1,0,2,0,
+python,Opus run 2,0,2,0,
+python,measured,0,3,0,0.019
+python,Astra run 1,0,3,0,
+python,Opus run 1,0,3,0,
+python,Opus run 2,0,3,0,
+python,measured,0,4,0,0.017
+python,Astra run 1,0,4,0,
+python,Opus run 1,0,4,0,
+python,Opus run 2,0,4,0,
+python,measured,0,5,0,0.0
+python,Astra run 1,0,5,0,
+python,Opus run 1,0,5,0,
+python,Opus run 2,0,5,0,
+python,measured,1,0,0,0.0
+python,Astra run 1,1,0,0,
+python,Opus run 1,1,0,0,
+python,Opus run 2,1,0,0,
+python,measured,1,1,0,0.0
+python,Astra run 1,1,1,0,
+python,Opus run 1,1,1,0,
+python,Opus run 2,1,1,0,
+python,measured,1,2,0,0.0
+python,Astra run 1,1,2,0,
+python,Opus run 1,1,2,0,
+python,Opus run 2,1,2,0,
+python,measured,1,3,0,0.0
+python,Astra run 1,1,3,0,
+python,Opus run 1,1,3,0,
+python,Opus run 2,1,3,0,
+python,measured,1,4,0,0.0
+python,Astra run 1,1,4,0,
+python,Opus run 1,1,4,0,
+python,Opus run 2,1,4,0,
+python,measured,1,5,0,0.0
+python,Astra run 1,1,5,0,
+python,Opus run 1,1,5,0,
+python,Opus run 2,1,5,0,
+python,measured,2,0,0,0.0
+python,Astra run 1,2,0,0,
+python,Opus run 1,2,0,0,
+python,Opus run 2,2,0,0,
+python,measured,2,1,1,0.245
+python,Astra run 1,2,1,1,
+python,Opus run 1,2,1,1,
+python,Opus run 2,2,1,1,
+python,measured,2,2,0,0.0
+python,Astra run 1,2,2,0,
+python,Opus run 1,2,2,0,
+python,Opus run 2,2,2,0,
+python,measured,2,3,0,0.0
+python,Astra run 1,2,3,0,
+python,Opus run 1,2,3,0,
+python,Opus run 2,2,3,0,
+python,measured,2,4,0,0.0
+python,Astra run 1,2,4,0,
+python,Opus run 1,2,4,0,
+python,Opus run 2,2,4,0,
+python,measured,2,5,0,0.003
+python,Astra run 1,2,5,0,
+python,Opus run 1,2,5,0,
+python,Opus run 2,2,5,0,
+python,measured,3,0,0,0.018
+python,Astra run 1,3,0,0,
+python,Opus run 1,3,0,1,
+python,Opus run 2,3,0,1,
+python,measured,3,1,1,0.269
+python,Astra run 1,3,1,1,
+python,Opus run 1,3,1,1,
+python,Opus run 2,3,1,1,
+python,measured,3,2,0,0.007
+python,Astra run 1,3,2,0,
+python,Opus run 1,3,2,0,
+python,Opus run 2,3,2,0,
+python,measured,3,3,0,0.018
+python,Astra run 1,3,3,0,
+python,Opus run 1,3,3,0,
+python,Opus run 2,3,3,0,
+python,measured,3,4,0,0.012
+python,Astra run 1,3,4,0,
+python,Opus run 1,3,4,0,
+python,Opus run 2,3,4,0,
+python,measured,3,5,1,0.546
+python,Astra run 1,3,5,1,
+python,Opus run 1,3,5,1,
+python,Opus run 2,3,5,1,
+romaji,measured,0,0,0,0.01
+romaji,Astra run 1,0,0,0,
+romaji,Opus run 1,0,0,0,
+romaji,Opus run 2,0,0,0,no code run
+romaji,measured,0,1,0,0.017
+romaji,Astra run 1,0,1,0,
+romaji,Opus run 1,0,1,0,
+romaji,Opus run 2,0,1,0,no code run
+romaji,measured,0,2,0,0.017
+romaji,Astra run 1,0,2,0,
+romaji,Opus run 1,0,2,0,
+romaji,Opus run 2,0,2,0,no code run
+romaji,measured,0,3,0,0.001
+romaji,Astra run 1,0,3,0,
+romaji,Opus run 1,0,3,0,
+romaji,Opus run 2,0,3,0,no code run
+romaji,measured,0,4,0,0.017
+romaji,Astra run 1,0,4,0,
+romaji,Opus run 1,0,4,0,
+romaji,Opus run 2,0,4,0,no code run
+romaji,measured,0,5,0,0.017
+romaji,Astra run 1,0,5,0,
+romaji,Opus run 1,0,5,0,
+romaji,Opus run 2,0,5,0,no code run
+romaji,measured,1,0,0,0.0
+romaji,Astra run 1,1,0,0,
+romaji,Opus run 1,1,0,0,
+romaji,Opus run 2,1,0,0,no code run
+romaji,measured,1,1,0,0.0
+romaji,Astra run 1,1,1,0,
+romaji,Opus run 1,1,1,0,
+romaji,Opus run 2,1,1,0,no code run
+romaji,measured,1,2,0,0.0
+romaji,Astra run 1,1,2,0,
+romaji,Opus run 1,1,2,0,
+romaji,Opus run 2,1,2,0,no code run
+romaji,measured,1,3,0,0.0
+romaji,Astra run 1,1,3,0,
+romaji,Opus run 1,1,3,0,
+romaji,Opus run 2,1,3,0,no code run
+romaji,measured,1,4,0,0.0
+romaji,Astra run 1,1,4,0,
+romaji,Opus run 1,1,4,0,
+romaji,Opus run 2,1,4,0,no code run
+romaji,measured,1,5,0,0.0
+romaji,Astra run 1,1,5,0,
+romaji,Opus run 1,1,5,0,
+romaji,Opus run 2,1,5,0,no code run
+romaji,measured,2,0,0,0.0
+romaji,Astra run 1,2,0,0,
+romaji,Opus run 1,2,0,0,
+romaji,Opus run 2,2,0,0,no code run
+romaji,measured,2,1,0,0.0
+romaji,Astra run 1,2,1,0,
+romaji,Opus run 1,2,1,0,
+romaji,Opus run 2,2,1,0,no code run
+romaji,measured,2,2,0,0.0
+romaji,Astra run 1,2,2,0,
+romaji,Opus run 1,2,2,0,
+romaji,Opus run 2,2,2,0,no code run
+romaji,measured,2,3,0,0.001
+romaji,Astra run 1,2,3,0,
+romaji,Opus run 1,2,3,0,
+romaji,Opus run 2,2,3,0,no code run
+romaji,measured,2,4,0,0.0
+romaji,Astra run 1,2,4,0,
+romaji,Opus run 1,2,4,0,
+romaji,Opus run 2,2,4,0,no code run
+romaji,measured,2,5,0,0.0
+romaji,Astra run 1,2,5,0,
+romaji,Opus run 1,2,5,0,
+romaji,Opus run 2,2,5,0,no code run
+romaji,measured,3,0,0,0.002
+romaji,Astra run 1,3,0,0,
+romaji,Opus run 1,3,0,0,
+romaji,Opus run 2,3,0,0,no code run
+romaji,measured,3,1,0,0.008
+romaji,Astra run 1,3,1,0,
+romaji,Opus run 1,3,1,0,
+romaji,Opus run 2,3,1,0,no code run
+romaji,measured,3,2,0,0.003
+romaji,Astra run 1,3,2,0,
+romaji,Opus run 1,3,2,0,
+romaji,Opus run 2,3,2,0,no code run
+romaji,measured,3,3,1,0.22
+romaji,Astra run 1,3,3,1,
+romaji,Opus run 1,3,3,1,
+romaji,Opus run 2,3,3,0,no code run
+romaji,measured,3,4,0,0.009
+romaji,Astra run 1,3,4,0,
+romaji,Opus run 1,3,4,0,
+romaji,Opus run 2,3,4,0,no code run
+romaji,measured,3,5,0,0.002
+romaji,Astra run 1,3,5,0,
+romaji,Opus run 1,3,5,0,
+romaji,Opus run 2,3,5,0,no code run
+english,measured,0,0,0,0.017
+english,Astra run 1,0,0,0,
+english,Opus run 1,0,0,0,
+english,Opus run 2,0,0,0,
+english,measured,0,1,0,0.017
+english,Astra run 1,0,1,0,
+english,Opus run 1,0,1,0,
+english,Opus run 2,0,1,0,
+english,measured,0,2,0,0.0
+english,Astra run 1,0,2,0,
+english,Opus run 1,0,2,0,
+english,Opus run 2,0,2,0,
+english,measured,0,3,0,0.006
+english,Astra run 1,0,3,0,
+english,Opus run 1,0,3,0,
+english,Opus run 2,0,3,0,
+english,measured,0,4,0,0.018
+english,Astra run 1,0,4,0,
+english,Opus run 1,0,4,0,
+english,Opus run 2,0,4,0,
+english,measured,0,5,0,0.017
+english,Astra run 1,0,5,0,
+english,Opus run 1,0,5,0,
+english,Opus run 2,0,5,0,
+english,measured,1,0,0,0.0
+english,Astra run 1,1,0,0,
+english,Opus run 1,1,0,0,
+english,Opus run 2,1,0,0,
+english,measured,1,1,0,0.0
+english,Astra run 1,1,1,0,
+english,Opus run 1,1,1,0,
+english,Opus run 2,1,1,0,
+english,measured,1,2,0,0.0
+english,Astra run 1,1,2,0,
+english,Opus run 1,1,2,0,
+english,Opus run 2,1,2,0,
+english,measured,1,3,0,0.0
+english,Astra run 1,1,3,0,
+english,Opus run 1,1,3,0,
+english,Opus run 2,1,3,0,
+english,measured,1,4,0,0.0
+english,Astra run 1,1,4,0,
+english,Opus run 1,1,4,0,
+english,Opus run 2,1,4,0,
+english,measured,1,5,0,0.0
+english,Astra run 1,1,5,0,
+english,Opus run 1,1,5,0,
+english,Opus run 2,1,5,0,
+english,measured,2,0,0,0.0
+english,Astra run 1,2,0,0,
+english,Opus run 1,2,0,0,
+english,Opus run 2,2,0,0,
+english,measured,2,1,0,0.0
+english,Astra run 1,2,1,0,
+english,Opus run 1,2,1,0,
+english,Opus run 2,2,1,0,
+english,measured,2,2,0,0.0
+english,Astra run 1,2,2,0,
+english,Opus run 1,2,2,0,
+english,Opus run 2,2,2,0,
+english,measured,2,3,0,0.0
+english,Astra run 1,2,3,0,
+english,Opus run 1,2,3,0,
+english,Opus run 2,2,3,0,
+english,measured,2,4,0,0.0
+english,Astra run 1,2,4,0,
+english,Opus run 1,2,4,0,
+english,Opus run 2,2,4,0,
+english,measured,2,5,0,0.0
+english,Astra run 1,2,5,0,
+english,Opus run 1,2,5,0,
+english,Opus run 2,2,5,0,
+english,measured,3,0,0,0.003
+english,Astra run 1,3,0,0,
+english,Opus run 1,3,0,0,
+english,Opus run 2,3,0,1,
+english,measured,3,1,1,0.524
+english,Astra run 1,3,1,1,
+english,Opus run 1,3,1,1,
+english,Opus run 2,3,1,1,
+english,measured,3,2,0,0.004
+english,Astra run 1,3,2,0,
+english,Opus run 1,3,2,0,
+english,Opus run 2,3,2,0,
+english,measured,3,3,0,0.003
+english,Astra run 1,3,3,0,
+english,Opus run 1,3,3,0,
+english,Opus run 2,3,3,0,
+english,measured,3,4,0,0.001
+english,Astra run 1,3,4,0,
+english,Opus run 1,3,4,0,
+english,Opus run 2,3,4,0,
+english,measured,3,5,0,0.013
+english,Astra run 1,3,5,0,
+english,Opus run 1,3,5,0,
+english,Opus run 2,3,5,0,

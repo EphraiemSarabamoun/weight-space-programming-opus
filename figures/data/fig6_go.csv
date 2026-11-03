@@ -1,0 +1,9 @@
+opponent,network,win_rate,losses_by_own_repetition,source
+"same-size PPO, seed 0",GPT-6 Astra,0.4255000054836273,,authors
+"same-size PPO, seed 0",Claude Opus 5.5,0.556,338,this repo
+"same-size PPO, seed 1",GPT-6 Astra,0.2630000114440918,,authors
+"same-size PPO, seed 1",Claude Opus 5.5,0.496,362,this repo
+"same-size PPO, seed 2",GPT-6 Astra,0.36250001192092896,,authors
+"same-size PPO, seed 2",Claude Opus 5.5,0.605,306,this repo
+Astra's budget-0 network,Claude Opus 5.5,0.3915,87,this repo
+Astra's budget-50 network,Claude Opus 5.5,0.229,58,this repo

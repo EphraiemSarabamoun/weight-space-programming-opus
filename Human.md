@@ -19,7 +19,8 @@ Each experiment is one script at the repo root:
 | `exp4_fix_car.py` | 4 (fix a failing Kinetix car policy), one reply | `claude`, `.venv-kinetix` |
 | `exp5_write.py` | 5 (write MinAtar policies from scratch), one reply each | `claude`, `.venv` (MinAtar) |
 | `exp6_go.py` | 6 at budget 0 (write a 1.5M-weight Go network), multi-turn with a Python sandbox | `claude`, `.venv-go` (pgx) |
-| `exp7_build_models.sh` | 7, step 1: rebuild the six Gemma fine-tunes with the authors' scripts | `.venv-train` |
+| `exp7_build_models.sh` | 7, step 1 only (Experiment 7 is otherwise out of scope): rebuild its six Gemma fine-tunes | `.venv-train` |
+| `figures/make_figures.py` | the README's figures, each drawn from a CSV in `figures/data/` | `.venv` + matplotlib |
 
 Every script is resumable: a turn whose `run.json` records a clean reply is not asked again, so rerunning a script
 only rescores.
@@ -60,6 +61,7 @@ flowchart LR
 - `wsp/score.py`: reading the `Game:` / `Images:` / `Confidence:` fields and mapping them to classes.
 - `wsp/ref.py` and `fetch_ref.sh`: where the authors' logs live, pinned to commit `4d09ba6`.
 - `results/expN/`: every turn Opus saw and sent, plus `scores.json`.
+- `figures/`: the figures, their CSVs and a description of each (`figures/README.md`).
 
 ## Where to read next
 

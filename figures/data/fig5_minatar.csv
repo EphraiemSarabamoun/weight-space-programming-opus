@@ -1,0 +1,13 @@
+game,network,mean_score,se,source
+breakout,PPO 100M steps (best seed),15.779,0.09258904757978523,ppo100_s2
+breakout,PPO 500M steps (best seed),25.344,0.12106329055630498,ppo500_s0
+breakout,GPT-6 Astra,517.411,7.416952829044303,authors' eval
+breakout,Claude Opus 5.5,503.716,5.641724771947175,this repo
+seaquest,PPO 100M steps (best seed),5.617,0.04926192990269197,ppo100_s2
+seaquest,PPO 500M steps (best seed),88.884,1.561826445494456,ppo500_s2
+seaquest,GPT-6 Astra,53.11,1.3573821814015339,authors' eval
+seaquest,Claude Opus 5.5,12.184,0.4205627385028506,this repo
+asterix,PPO 100M steps (best seed),25.82,0.44719971778567524,ppo100_s6
+asterix,PPO 500M steps (best seed),55.204,0.6358889358518033,ppo500_s1
+asterix,GPT-6 Astra,53.178,1.023305169277215,authors' eval
+asterix,Claude Opus 5.5,42.615,0.9914816240409153,this repo
