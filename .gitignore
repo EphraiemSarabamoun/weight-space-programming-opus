@@ -1,0 +1,5 @@
+.clean_config/
+.clean_cwd/
+__pycache__/
+*.pyc
+.venv/
