@@ -1,0 +1,11 @@
+OUTPUT of run 43 of at most 100:
+```
+raw std a 0.124 b 0.038
+1465 11 raw cur 1.375 prev 0.392 bias -0.415  |w| 2.43
+524 4 raw cur 1.240 prev 0.517 bias -0.337  |w| 3.05
+1214 12 raw cur 1.724 prev 0.540 bias -0.124  |w| 2.95
+360 8 raw cur 1.563 prev 0.402 bias -0.153  |w| 2.67
+213 10 raw cur 1.497 prev 0.395 bias -0.286  |w| 2.77
+OV05 gain on unit token dirs: mean 0.41
+
+```

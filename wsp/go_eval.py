@@ -100,4 +100,7 @@ def head_to_head(net_a, net_b, games=2000, seed=31337, batch=500):
     return {"games": games, "score": float(win.mean()), "wins": int(win.sum()), "losses": int((~win).sum()),
             "score_as_black": float(win[:half].mean()), "score_as_white": float(win[half:].mean()),
             "mean_length": float(moves.mean()), "end_two_passes": int(passes.sum()), "end_repetition": int(psk.sum()),
+            # A repeated whole-board position loses for the player who made it, so a repetition ending is a win by
+            # the opponent's repetition when A won, and a loss by A's own repetition when A lost.
+            "wins_by_opponent_repetition": int((psk & win).sum()), "losses_by_own_repetition": int((psk & ~win).sum()),
             "undecided": int((reward == 0).sum())}

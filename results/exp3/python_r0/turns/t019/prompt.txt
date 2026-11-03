@@ -1,0 +1,27 @@
+OUTPUT of run 18 of at most 100:
+```
+A00 top2 in A04 plane coords:
+ [[-0.3  -0.9 ]
+ [ 0.91 -0.25]] [3.43 2.47]
+L1H0 u in plane: [-4.2 -4.1] angle -136 |u|=6.7
+L1H1 u in plane: [-20.  -13.2] angle -147 |u|=25.2
+L1H2 u in plane: [-13.9  -9.3] angle -146 |u|=17.6
+L1H3 u in plane: [-17.  -12.2] angle -144 |u|=21.8
+L1H4 u in plane: [-15.7 -11.2] angle -144 |u|=20.1
+L1H5 u in plane: [-14.9  -9.9] angle -146 |u|=19.7
+L2H0 u in plane: [-3.4 -3.5] angle -135 |u|=7.2
+L2H1 u in plane: [-0.2 -0.9] angle -101 |u|=5.1
+L2H2 u in plane: [-9.4 -6.8] angle -144 |u|=12.7
+L2H3 u in plane: [-5.6 -4.8] angle -140 |u|=8.3
+L2H4 u in plane: [-5.4 -5.7] angle -133 |u|=9.6
+L2H5 u in plane: [-2.  -1.7] angle -140 |u|=5.1
+L3H0 u in plane: [-0.4 -0.6] angle -123 |u|=2.4
+L3H1 u in plane: [ 0.4 -0.4] angle -44 |u|=2.1
+L3H2 u in plane: [-1.  -0.8] angle -141 |u|=2.7
+L3H3 u in plane: [-0.4 -0.2] angle -152 |u|=2.1
+L3H4 u in plane: [-0.8 -0.6] angle -144 |u|=2.5
+L3H5 u in plane: [ 0.5 -0.4] angle -41 |u|=2.5
+ln1_b.l in plane: [array([ 1.09, -2.26], dtype=float32), array([ 0.82, -1.76], dtype=float32), array([ 0.55, -0.7 ], dtype=float32)]
+ln1_b norms [np.float32(3.03), np.float32(2.62), np.float32(1.86)]
+
+```

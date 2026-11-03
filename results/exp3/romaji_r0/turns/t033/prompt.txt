@@ -1,0 +1,38 @@
+OUTPUT of run 32 of at most 100:
+```
+0 sv 28.46 top dims [(184, -0.43), (39, -0.34), (5, 0.32), (383, -0.25)] mass on massive dims 0.66
+1 sv 22.21 top dims [(351, -0.17), (316, 0.16), (283, -0.15), (43, 0.14)] mass on massive dims 0.03
+2 sv 21.34 top dims [(323, 0.16), (219, -0.13), (95, 0.12), (61, -0.12)] mass on massive dims 0.06
+3 sv 20.71 top dims [(90, -0.17), (200, -0.16), (8, -0.15), (355, 0.13)] mass on massive dims 0.08
+4 sv 19.94 top dims [(161, 0.14), (135, 0.13), (10, 0.13), (302, -0.12)] mass on massive dims 0.04
+5 sv 19.66 top dims [(36, 0.14), (300, 0.14), (26, -0.14), (124, 0.13)] mass on massive dims 0.02
+6 sv 18.99 top dims [(353, -0.14), (257, -0.14), (60, -0.13), (259, 0.12)] mass on massive dims 0.03
+7 sv 18.74 top dims [(189, 0.13), (133, -0.13), (361, -0.12), (83, 0.12)] mass on massive dims 0.03
+8 sv 18.29 top dims [(179, 0.15), (356, -0.14), (176, -0.13), (381, -0.13)] mass on massive dims 0.01
+9 sv 17.46 top dims [(379, -0.15), (122, -0.15), (329, 0.14), (44, -0.14)] mass on massive dims 0.02
+10 sv 17.13 top dims [(76, 0.18), (291, 0.14), (373, 0.14), (13, 0.14)] mass on massive dims 0.04
+11 sv 16.56 top dims [(237, -0.16), (310, 0.13), (192, -0.13), (19, -0.13)] mass on massive dims 0.02
+12 sv 15.33 top dims [(222, -0.17), (3, -0.15), (55, 0.15), (368, -0.15)] mass on massive dims 0.03
+13 sv 14.87 top dims [(268, -0.16), (42, 0.16), (106, 0.16), (140, 0.16)] mass on massive dims 0.02
+14 sv 14.33 top dims [(127, -0.16), (151, 0.15), (104, -0.14), (196, -0.14)] mass on massive dims 0.03
+15 sv 13.44 top dims [(263, 0.17), (349, 0.17), (196, -0.16), (78, 0.15)] mass on massive dims 0.01
+16 sv 12.67 top dims [(345, -0.19), (30, 0.18), (47, 0.18), (150, -0.15)] mass on massive dims 0.02
+17 sv 12.45 top dims [(241, 0.14), (307, -0.13), (276, -0.12), (34, -0.12)] mass on massive dims 0.02
+18 sv 12.32 top dims [(289, 0.17), (349, 0.15), (235, -0.14), (67, -0.14)] mass on massive dims 0.01
+19 sv 11.53 top dims [(341, -0.19), (0, -0.17), (19, -0.15), (273, -0.14)] mass on massive dims 0.02
+20 sv 11.05 top dims [(318, 0.23), (212, 0.2), (150, -0.15), (154, -0.14)] mass on massive dims 0.03
+21 sv 9.08 top dims [(58, 0.17), (365, 0.15), (103, -0.15), (169, -0.15)] mass on massive dims 0.06
+22 sv 8.35 top dims [(108, -0.18), (286, 0.15), (17, 0.15), (177, -0.14)] mass on massive dims 0.03
+23 sv 8.24 top dims [(315, 0.15), (281, -0.14), (298, 0.13), (69, -0.13)] mass on massive dims 0.04
+24 sv 6.37 top dims [(214, 0.26), (90, 0.25), (219, 0.24), (53, -0.22)] mass on massive dims 0.24
+25 sv 5.84 top dims [(21, 0.5), (90, -0.27), (53, -0.25), (5, 0.15)] mass on massive dims 0.37
+26 sv 4.63 top dims [(21, -0.4), (39, 0.27), (90, -0.21), (64, -0.15)] mass on massive dims 0.25
+27 sv 4.58 top dims [(21, -0.59), (39, 0.22), (242, 0.15), (90, -0.15)] mass on massive dims 0.43
+28 sv 3.78 top dims [(184, -0.35), (5, -0.23), (329, -0.21), (294, 0.21)] mass on massive dims 0.23
+29 sv 3.61 top dims [(53, -0.32), (5, -0.23), (294, 0.23), (89, 0.23)] mass on massive dims 0.21
+30 sv 3.25 top dims [(214, -0.27), (288, -0.26), (132, 0.2), (383, -0.19)] mass on massive dims 0.18
+31 sv 3.18 top dims [(288, 0.27), (58, -0.21), (18, -0.2), (9, -0.17)] mass on massive dims 0.13
+32 sv 3.09 top dims [(189, 0.28), (184, 0.23), (136, 0.2), (288, -0.18)] mass on massive dims 0.07
+33 sv 2.94 top dims [(189, -0.26), (58, 0.25), (184, 0.19), (39, -0.18)] mass on massive dims 0.22
+
+```

@@ -1,0 +1,22 @@
+OUTPUT of run 15 of at most 100:
+```
+1 0 same-token tr -0.70 max 0.25 | induction(0.2) tr -0.26 max 0.08 | rand tr -0.02 max 0.05
+1 1 same-token tr -0.82 max 0.49 | induction(0.2) tr -0.01 max 0.26 | rand tr 0.05 max 0.10
+1 2 same-token tr -0.82 max 0.64 | induction(0.2) tr 0.30 max 0.17 | rand tr -0.06 max 0.11
+1 3 same-token tr -0.73 max 0.41 | induction(0.2) tr 0.34 max 0.16 | rand tr 0.18 max 0.10
+1 4 same-token tr -0.82 max 0.49 | induction(0.2) tr 0.33 max 0.13 | rand tr -0.05 max 0.12
+1 5 same-token tr -0.74 max 0.35 | induction(0.2) tr 0.14 max 0.15 | rand tr -0.08 max 0.11
+2 0 same-token tr -0.17 max 0.43 | induction(0.2) tr -0.15 max 0.16 | rand tr -0.03 max 0.18
+2 1 same-token tr -0.18 max 0.34 | induction(0.2) tr -0.16 max 0.17 | rand tr -0.02 max 0.11
+2 2 same-token tr -0.18 max 0.34 | induction(0.2) tr 0.03 max 0.08 | rand tr 0.01 max 0.08
+2 3 same-token tr -0.37 max 0.44 | induction(0.2) tr 0.12 max 0.12 | rand tr 0.22 max 0.10
+2 4 same-token tr -0.28 max 0.36 | induction(0.2) tr -0.23 max 0.13 | rand tr 0.13 max 0.13
+2 5 same-token tr -0.29 max 0.44 | induction(0.2) tr 0.03 max 0.12 | rand tr 0.00 max 0.11
+3 0 same-token tr 0.33 max 0.30 | induction(0.2) tr -0.06 max 0.13 | rand tr -0.02 max 0.11
+3 1 same-token tr 0.29 max 0.29 | induction(0.2) tr 0.93 max 0.42 | rand tr -0.08 max 0.14
+3 2 same-token tr 0.05 max 0.26 | induction(0.2) tr 0.09 max 0.07 | rand tr -0.05 max 0.07
+3 3 same-token tr -0.08 max 0.25 | induction(0.2) tr 0.03 max 0.08 | rand tr -0.05 max 0.07
+3 4 same-token tr 0.11 max 0.19 | induction(0.2) tr -0.13 max 0.11 | rand tr 0.02 max 0.12
+3 5 same-token tr 0.09 max 0.08 | induction(0.2) tr 0.08 max 0.04 | rand tr 0.07 max 0.05
+
+```

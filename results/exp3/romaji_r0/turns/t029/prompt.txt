@@ -1,0 +1,132 @@
+OUTPUT of run 28 of at most 100:
+```
+0 sv 2.49 MLP0 5.6 L0qk 0.5 L1v 2.7 L1q 3.2 L1fc 1.9 *
+1 sv 2.37 MLP0 4.5 L0qk 0.4 L1v 2.5 L1q 2.0 L1fc 1.9 *
+2 sv 2.22 MLP0 7.9 L0qk 0.5 L1v 2.4 L1q 2.3 L1fc 1.7 *
+3 sv 2.15 MLP0 5.1 L0qk 0.4 L1v 2.5 L1q 2.3 L1fc 2.0 *
+4 sv 2.12 MLP0 6.1 L0qk 0.5 L1v 2.2 L1q 2.0 L1fc 2.0 *
+5 sv 2.08 MLP0 5.1 L0qk 0.3 L1v 2.7 L1q 1.9 L1fc 1.9 *
+6 sv 2.04 MLP0 5.1 L0qk 0.3 L1v 3.0 L1q 2.6 L1fc 1.9 *
+7 sv 1.99 MLP0 6.6 L0qk 0.4 L1v 2.3 L1q 2.2 L1fc 1.7 *
+8 sv 1.96 MLP0 5.6 L0qk 0.5 L1v 2.1 L1q 2.2 L1fc 1.5 *
+9 sv 1.93 MLP0 4.8 L0qk 0.7 L1v 2.5 L1q 1.9 L1fc 2.0 *
+10 sv 1.84 MLP0 7.2 L0qk 0.6 L1v 2.4 L1q 3.1 L1fc 2.2 *
+11 sv 1.84 MLP0 5.6 L0qk 0.6 L1v 2.4 L1q 2.0 L1fc 1.7 *
+12 sv 1.79 MLP0 7.0 L0qk 0.4 L1v 2.6 L1q 2.7 L1fc 2.0 *
+13 sv 1.75 MLP0 6.5 L0qk 0.5 L1v 2.8 L1q 2.1 L1fc 2.3 *
+14 sv 1.69 MLP0 8.2 L0qk 0.3 L1v 2.7 L1q 3.2 L1fc 2.2 *
+15 sv 1.67 MLP0 9.8 L0qk 0.5 L1v 3.1 L1q 2.4 L1fc 2.4 *
+16 sv 1.60 MLP0 6.2 L0qk 0.4 L1v 2.5 L1q 3.0 L1fc 2.0 *
+17 sv 1.54 MLP0 8.2 L0qk 0.8 L1v 3.1 L1q 2.9 L1fc 2.1 *
+18 sv 1.48 MLP0 3.8 L0qk 0.4 L1v 2.4 L1q 2.2 L1fc 1.7 *
+19 sv 1.45 MLP0 4.8 L0qk 0.6 L1v 1.9 L1q 2.3 L1fc 1.7 *
+20 sv 1.41 MLP0 4.0 L0qk 0.5 L1v 2.1 L1q 1.7 L1fc 1.3 *
+21 sv 1.35 MLP0 5.6 L0qk 0.9 L1v 1.8 L1q 2.7 L1fc 1.4 *
+22 sv 1.31 MLP0 4.2 L0qk 0.6 L1v 2.0 L1q 1.8 L1fc 1.4 *
+23 sv 1.12 MLP0 3.2 L0qk 0.9 L1v 1.8 L1q 1.2 L1fc 1.3 *
+24 sv 0.98 MLP0 1.7 L0qk 1.1 L1v 1.3 L1q 1.3 L1fc 1.1 
+25 sv 0.90 MLP0 0.6 L0qk 2.4 L1v 0.5 L1q 0.5 L1fc 0.5 
+26 sv 0.88 MLP0 0.8 L0qk 2.5 L1v 0.8 L1q 0.7 L1fc 0.7 
+27 sv 0.84 MLP0 0.9 L0qk 2.8 L1v 0.8 L1q 0.8 L1fc 0.8 
+28 sv 0.84 MLP0 1.0 L0qk 2.5 L1v 0.7 L1q 0.9 L1fc 0.9 
+29 sv 0.79 MLP0 1.1 L0qk 2.7 L1v 0.8 L1q 0.7 L1fc 0.7 
+30 sv 0.77 MLP0 0.6 L0qk 3.0 L1v 0.7 L1q 0.5 L1fc 0.6 
+31 sv 0.76 MLP0 0.8 L0qk 3.2 L1v 1.0 L1q 0.8 L1fc 0.9 
+32 sv 0.75 MLP0 0.4 L0qk 3.4 L1v 0.7 L1q 0.6 L1fc 0.6 
+33 sv 0.75 MLP0 1.2 L0qk 2.7 L1v 1.1 L1q 1.3 L1fc 0.9 
+34 sv 0.73 MLP0 0.6 L0qk 3.3 L1v 0.9 L1q 0.8 L1fc 0.7 
+35 sv 0.71 MLP0 0.4 L0qk 3.3 L1v 0.9 L1q 0.7 L1fc 0.8 
+36 sv 0.70 MLP0 0.8 L0qk 3.3 L1v 0.8 L1q 0.8 L1fc 0.7 
+37 sv 0.68 MLP0 1.2 L0qk 3.3 L1v 0.7 L1q 0.7 L1fc 0.8 
+38 sv 0.67 MLP0 0.6 L0qk 3.0 L1v 0.9 L1q 1.2 L1fc 0.8 
+39 sv 0.67 MLP0 0.7 L0qk 2.9 L1v 0.8 L1q 0.8 L1fc 0.8 
+40 sv 0.64 MLP0 0.5 L0qk 3.3 L1v 0.8 L1q 0.6 L1fc 0.8 
+41 sv 0.63 MLP0 0.4 L0qk 3.1 L1v 0.6 L1q 1.0 L1fc 0.8 
+42 sv 0.61 MLP0 0.9 L0qk 2.2 L1v 0.7 L1q 0.6 L1fc 0.7 
+43 sv 0.60 MLP0 0.7 L0qk 2.7 L1v 0.7 L1q 1.0 L1fc 0.9 
+44 sv 0.60 MLP0 0.9 L0qk 2.4 L1v 0.8 L1q 0.9 L1fc 0.9 
+45 sv 0.59 MLP0 0.7 L0qk 2.9 L1v 0.8 L1q 0.7 L1fc 0.9 
+46 sv 0.58 MLP0 0.7 L0qk 2.3 L1v 0.7 L1q 0.8 L1fc 0.9 
+47 sv 0.57 MLP0 0.7 L0qk 2.3 L1v 0.7 L1q 0.7 L1fc 0.8 
+48 sv 0.56 MLP0 0.8 L0qk 2.2 L1v 0.8 L1q 0.9 L1fc 0.9 
+49 sv 0.56 MLP0 1.1 L0qk 1.5 L1v 0.9 L1q 1.3 L1fc 0.7 
+50 sv 0.54 MLP0 0.8 L0qk 1.6 L1v 1.0 L1q 0.9 L1fc 0.9 
+51 sv 0.53 MLP0 1.3 L0qk 2.0 L1v 1.1 L1q 1.5 L1fc 0.8 
+52 sv 0.52 MLP0 1.0 L0qk 1.9 L1v 0.9 L1q 0.9 L1fc 0.9 
+53 sv 0.51 MLP0 0.8 L0qk 1.2 L1v 0.9 L1q 1.0 L1fc 0.7 
+54 sv 0.50 MLP0 0.9 L0qk 1.6 L1v 1.0 L1q 1.2 L1fc 1.1 
+55 sv 0.49 MLP0 0.8 L0qk 1.2 L1v 0.7 L1q 1.2 L1fc 0.7 
+56 sv 0.49 MLP0 0.8 L0qk 1.3 L1v 0.8 L1q 1.1 L1fc 0.9 
+57 sv 0.48 MLP0 0.6 L0qk 1.2 L1v 1.1 L1q 1.0 L1fc 0.9 
+58 sv 0.47 MLP0 0.8 L0qk 1.3 L1v 0.7 L1q 0.7 L1fc 0.9 
+59 sv 0.46 MLP0 0.6 L0qk 1.1 L1v 1.0 L1q 1.1 L1fc 1.1 
+60 sv 0.46 MLP0 0.6 L0qk 1.0 L1v 1.0 L1q 1.0 L1fc 0.9 
+61 sv 0.45 MLP0 0.9 L0qk 1.2 L1v 1.2 L1q 1.0 L1fc 1.2 
+62 sv 0.45 MLP0 0.8 L0qk 1.3 L1v 1.1 L1q 1.0 L1fc 0.9 
+63 sv 0.44 MLP0 0.5 L0qk 1.0 L1v 0.9 L1q 0.7 L1fc 0.9 
+64 sv 0.44 MLP0 0.9 L0qk 0.9 L1v 0.8 L1q 0.8 L1fc 0.8 
+65 sv 0.42 MLP0 0.8 L0qk 1.0 L1v 1.1 L1q 1.3 L1fc 0.9 
+66 sv 0.42 MLP0 0.5 L0qk 0.8 L1v 0.8 L1q 0.7 L1fc 0.9 
+67 sv 0.41 MLP0 1.3 L0qk 1.3 L1v 1.1 L1q 1.2 L1fc 1.2 
+68 sv 0.41 MLP0 0.5 L0qk 1.3 L1v 0.8 L1q 0.8 L1fc 0.8 
+69 sv 0.40 MLP0 1.0 L0qk 0.6 L1v 1.0 L1q 1.0 L1fc 0.9 
+70 sv 0.40 MLP0 0.5 L0qk 1.1 L1v 0.8 L1q 0.7 L1fc 1.0 
+71 sv 0.40 MLP0 0.9 L0qk 0.7 L1v 1.1 L1q 1.2 L1fc 1.0 
+72 sv 0.39 MLP0 0.8 L0qk 1.2 L1v 1.0 L1q 1.2 L1fc 1.2 
+73 sv 0.39 MLP0 0.6 L0qk 1.0 L1v 1.0 L1q 0.9 L1fc 0.9 
+74 sv 0.38 MLP0 1.2 L0qk 0.9 L1v 0.7 L1q 1.4 L1fc 0.9 
+75 sv 0.38 MLP0 0.8 L0qk 1.0 L1v 1.0 L1q 1.0 L1fc 0.8 
+76 sv 0.37 MLP0 0.7 L0qk 0.8 L1v 0.9 L1q 0.9 L1fc 1.1 
+77 sv 0.37 MLP0 0.5 L0qk 0.7 L1v 0.8 L1q 0.9 L1fc 0.9 
+78 sv 0.37 MLP0 0.6 L0qk 0.6 L1v 0.8 L1q 1.1 L1fc 0.8 
+79 sv 0.36 MLP0 0.6 L0qk 0.8 L1v 0.8 L1q 0.8 L1fc 1.1 
+80 sv 0.36 MLP0 0.6 L0qk 0.8 L1v 0.8 L1q 1.0 L1fc 0.9 
+81 sv 0.35 MLP0 0.6 L0qk 0.8 L1v 0.9 L1q 1.0 L1fc 0.8 
+82 sv 0.35 MLP0 0.3 L0qk 0.8 L1v 0.9 L1q 0.8 L1fc 0.9 
+83 sv 0.34 MLP0 0.6 L0qk 1.0 L1v 0.8 L1q 0.9 L1fc 1.0 
+84 sv 0.34 MLP0 0.7 L0qk 0.6 L1v 0.9 L1q 0.9 L1fc 1.2 
+85 sv 0.33 MLP0 0.6 L0qk 0.6 L1v 1.0 L1q 1.1 L1fc 1.1 
+86 sv 0.33 MLP0 0.7 L0qk 0.8 L1v 0.8 L1q 1.0 L1fc 0.9 
+87 sv 0.33 MLP0 0.8 L0qk 0.6 L1v 0.8 L1q 1.0 L1fc 0.9 
+88 sv 0.32 MLP0 0.7 L0qk 0.8 L1v 1.0 L1q 0.9 L1fc 0.9 
+89 sv 0.32 MLP0 0.5 L0qk 0.9 L1v 1.0 L1q 0.9 L1fc 1.2 
+90 sv 0.32 MLP0 0.7 L0qk 0.5 L1v 0.9 L1q 0.9 L1fc 1.0 
+91 sv 0.31 MLP0 1.2 L0qk 0.9 L1v 0.9 L1q 1.0 L1fc 0.8 
+92 sv 0.31 MLP0 1.0 L0qk 0.9 L1v 1.1 L1q 1.1 L1fc 1.2 
+93 sv 0.31 MLP0 0.5 L0qk 0.8 L1v 0.9 L1q 0.8 L1fc 1.0 
+94 sv 0.31 MLP0 0.7 L0qk 1.2 L1v 1.0 L1q 1.1 L1fc 0.9 
+95 sv 0.30 MLP0 0.8 L0qk 1.1 L1v 0.7 L1q 1.0 L1fc 1.1 
+96 sv 0.30 MLP0 0.8 L0qk 0.6 L1v 0.9 L1q 1.0 L1fc 0.9 
+97 sv 0.30 MLP0 0.7 L0qk 0.5 L1v 1.0 L1q 0.9 L1fc 1.0 
+98 sv 0.29 MLP0 0.7 L0qk 0.8 L1v 1.1 L1q 0.9 L1fc 0.9 
+99 sv 0.29 MLP0 0.7 L0qk 0.7 L1v 1.0 L1q 1.0 L1fc 1.1 
+100 sv 0.28 MLP0 0.7 L0qk 0.7 L1v 1.0 L1q 1.0 L1fc 1.0 
+101 sv 0.28 MLP0 0.7 L0qk 0.9 L1v 0.8 L1q 0.8 L1fc 0.9 
+102 sv 0.28 MLP0 1.0 L0qk 0.7 L1v 0.9 L1q 1.3 L1fc 0.9 
+103 sv 0.27 MLP0 0.8 L0qk 0.7 L1v 1.1 L1q 1.1 L1fc 1.1 
+104 sv 0.27 MLP0 0.6 L0qk 0.7 L1v 0.8 L1q 0.8 L1fc 0.9 
+105 sv 0.27 MLP0 0.5 L0qk 0.8 L1v 0.9 L1q 0.7 L1fc 0.8 
+106 sv 0.26 MLP0 1.0 L0qk 0.6 L1v 1.3 L1q 1.1 L1fc 0.8 
+107 sv 0.26 MLP0 0.7 L0qk 0.9 L1v 0.8 L1q 0.9 L1fc 1.1 
+108 sv 0.26 MLP0 0.7 L0qk 0.5 L1v 1.2 L1q 1.2 L1fc 1.5 
+109 sv 0.25 MLP0 0.5 L0qk 0.7 L1v 0.7 L1q 0.6 L1fc 1.0 
+110 sv 0.25 MLP0 0.6 L0qk 0.8 L1v 0.8 L1q 0.8 L1fc 0.7 
+111 sv 0.25 MLP0 0.7 L0qk 0.5 L1v 0.9 L1q 0.9 L1fc 1.0 
+112 sv 0.24 MLP0 0.6 L0qk 0.8 L1v 1.1 L1q 0.9 L1fc 0.9 
+113 sv 0.24 MLP0 0.6 L0qk 0.9 L1v 0.8 L1q 0.9 L1fc 0.9 
+114 sv 0.23 MLP0 0.6 L0qk 0.5 L1v 0.9 L1q 1.0 L1fc 0.8 
+115 sv 0.23 MLP0 0.8 L0qk 0.7 L1v 1.1 L1q 0.9 L1fc 1.1 
+116 sv 0.23 MLP0 0.6 L0qk 0.8 L1v 0.9 L1q 1.0 L1fc 0.7 
+117 sv 0.22 MLP0 0.7 L0qk 0.7 L1v 1.0 L1q 0.9 L1fc 1.0 
+118 sv 0.22 MLP0 0.7 L0qk 0.7 L1v 1.1 L1q 1.2 L1fc 1.2 
+119 sv 0.22 MLP0 0.5 L0qk 0.5 L1v 0.7 L1q 0.7 L1fc 1.0 
+120 sv 0.21 MLP0 0.5 L0qk 0.5 L1v 0.8 L1q 0.7 L1fc 0.9 
+121 sv 0.21 MLP0 1.0 L0qk 0.7 L1v 0.9 L1q 0.8 L1fc 0.9 
+122 sv 0.20 MLP0 0.5 L0qk 0.8 L1v 0.6 L1q 0.7 L1fc 0.9 
+123 sv 0.19 MLP0 0.8 L0qk 0.8 L1v 1.0 L1q 0.9 L1fc 0.8 
+124 sv 0.19 MLP0 0.7 L0qk 0.6 L1v 0.9 L1q 0.8 L1fc 1.0 
+125 sv 0.19 MLP0 1.0 L0qk 1.0 L1v 1.0 L1q 1.3 L1fc 1.5 
+126 sv 0.18 MLP0 0.6 L0qk 0.9 L1v 0.8 L1q 0.9 L1fc 1.0 
+127 sv 0.18 MLP0 0.5 L0qk 0.8 L1v 0.8 L1q 0.8 L1fc 0.7 
+
+```

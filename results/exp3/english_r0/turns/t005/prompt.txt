@@ -1,0 +1,12 @@
+OUTPUT of run 4 of at most 100:
+```
+QK L0: H0 tr/|M|=-0.09 realfrac=-0.10 | H1 tr/|M|=-0.47 realfrac=-0.32 | H2 tr/|M|=0.29 realfrac=0.08 | H3 tr/|M|=0.50 realfrac=0.33 | H4 tr/|M|=-0.67 realfrac=-0.57 | H5 tr/|M|=-0.45 realfrac=-0.53
+QK L1: H0 tr/|M|=-0.73 realfrac=-0.58 | H1 tr/|M|=-0.88 realfrac=-0.58 | H2 tr/|M|=-1.04 realfrac=-0.62 | H3 tr/|M|=-0.84 realfrac=-0.56 | H4 tr/|M|=-0.86 realfrac=-0.61 | H5 tr/|M|=-0.76 realfrac=-0.52
+QK L2: H0 tr/|M|=-0.01 realfrac=-0.00 | H1 tr/|M|=0.26 realfrac=0.12 | H2 tr/|M|=-0.69 realfrac=-0.32 | H3 tr/|M|=-0.35 realfrac=-0.16 | H4 tr/|M|=-0.20 realfrac=-0.09 | H5 tr/|M|=-0.31 realfrac=-0.14
+QK L3: H0 tr/|M|=1.53 realfrac=0.61 | H1 tr/|M|=3.44 realfrac=0.85 | H2 tr/|M|=0.15 realfrac=0.07 | H3 tr/|M|=0.07 realfrac=0.03 | H4 tr/|M|=0.49 realfrac=0.23 | H5 tr/|M|=0.12 realfrac=0.06
+OV L0: H0 tr/|M|=0.00 eigrealpos=0.01 | H1 tr/|M|=-0.03 eigrealpos=-0.07 | H2 tr/|M|=-0.25 eigrealpos=-0.20 | H3 tr/|M|=-0.14 eigrealpos=-0.19 | H4 tr/|M|=-0.09 eigrealpos=-0.20 | H5 tr/|M|=0.01 eigrealpos=0.02
+OV L1: H0 tr/|M|=-0.94 eigrealpos=-0.71 | H1 tr/|M|=-1.21 eigrealpos=-0.79 | H2 tr/|M|=-1.05 eigrealpos=-0.79 | H3 tr/|M|=-0.89 eigrealpos=-0.78 | H4 tr/|M|=-1.14 eigrealpos=-0.85 | H5 tr/|M|=-1.24 eigrealpos=-0.88
+OV L2: H0 tr/|M|=-2.37 eigrealpos=-0.87 | H1 tr/|M|=-2.01 eigrealpos=-0.79 | H2 tr/|M|=-1.62 eigrealpos=-0.73 | H3 tr/|M|=-2.03 eigrealpos=-0.82 | H4 tr/|M|=-1.95 eigrealpos=-0.81 | H5 tr/|M|=-2.17 eigrealpos=-0.83
+OV L3: H0 tr/|M|=-2.45 eigrealpos=-0.86 | H1 tr/|M|=-1.31 eigrealpos=-0.78 | H2 tr/|M|=-1.27 eigrealpos=-0.65 | H3 tr/|M|=-1.45 eigrealpos=-0.70 | H4 tr/|M|=-1.39 eigrealpos=-0.65 | H5 tr/|M|=-1.01 eigrealpos=-0.68
+
+```

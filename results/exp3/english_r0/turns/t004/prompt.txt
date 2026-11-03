@@ -1,0 +1,30 @@
+OUTPUT of run 3 of at most 100:
+```
+n hi 54
+0 W_q.0 raw colnorm hi/lo mean 0.203 0.155  effective (x ln_w) energy frac in hi: 0.877
+0 W_k.0 raw colnorm hi/lo mean 0.147 0.217  effective (x ln_w) energy frac in hi: 0.585
+0 W_v.0 raw colnorm hi/lo mean 0.428 0.272  effective (x ln_w) energy frac in hi: 0.888
+1 W_q.0 raw colnorm hi/lo mean 0.154 0.151  effective (x ln_w) energy frac in hi: 0.800
+1 W_k.0 raw colnorm hi/lo mean 0.140 0.188  effective (x ln_w) energy frac in hi: 0.609
+1 W_v.0 raw colnorm hi/lo mean 0.384 0.245  effective (x ln_w) energy frac in hi: 0.888
+2 W_q.0 raw colnorm hi/lo mean 1.583 1.446  effective (x ln_w) energy frac in hi: 0.628
+2 W_k.0 raw colnorm hi/lo mean 1.908 1.227  effective (x ln_w) energy frac in hi: 0.789
+2 W_v.0 raw colnorm hi/lo mean 0.221 0.397  effective (x ln_w) energy frac in hi: 0.526
+3 W_q.0 raw colnorm hi/lo mean 0.395 0.326  effective (x ln_w) energy frac in hi: 0.807
+3 W_k.0 raw colnorm hi/lo mean 0.422 0.344  effective (x ln_w) energy frac in hi: 0.815
+3 W_v.0 raw colnorm hi/lo mean 0.184 0.284  effective (x ln_w) energy frac in hi: 0.548
+4 W_q.0 raw colnorm hi/lo mean 0.245 0.182  effective (x ln_w) energy frac in hi: 0.868
+4 W_k.0 raw colnorm hi/lo mean 0.179 0.253  effective (x ln_w) energy frac in hi: 0.624
+4 W_v.0 raw colnorm hi/lo mean 0.287 0.257  effective (x ln_w) energy frac in hi: 0.799
+5 W_q.0 raw colnorm hi/lo mean 0.202 0.147  effective (x ln_w) energy frac in hi: 0.878
+5 W_k.0 raw colnorm hi/lo mean 0.153 0.195  effective (x ln_w) energy frac in hi: 0.644
+5 W_v.0 raw colnorm hi/lo mean 0.417 0.284  effective (x ln_w) energy frac in hi: 0.881
+fc0 colnorm hi/lo 2.0725358 2.371095
+ln2_w0 hi/lo 0.5538054 0.8409496
+W_o.0 rownorm hi/lo 1.0004812 0.63971394
+W_proj.0 rownorm hi/lo 2.0127666 1.9682091
+1 ln1_w hi/lo 0.45670775 0.45766857 ln1_b abs hi/lo 0.1511398 0.06645494
+2 ln1_w hi/lo 0.6944768 0.7069613 ln1_b abs hi/lo 0.14388639 0.07071576
+3 ln1_w hi/lo 0.74389786 0.75632304 ln1_b abs hi/lo 0.07949047 0.044862583
+
+```

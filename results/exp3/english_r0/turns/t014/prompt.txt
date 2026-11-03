@@ -1,0 +1,8 @@
+OUTPUT of run 13 of at most 100:
+```
+L1 H0: ind -0.26 same -1.07 prevq -1.40 | H1: ind -0.02 same -1.49 prevq -0.68 | H2: ind +0.64 same -2.14 prevq +0.59 | H3: ind +0.67 same -1.37 prevq +0.58 | H4: ind +0.68 same -1.58 prevq -0.27 | H5: ind +0.20 same -1.21 prevq -0.68
+L2 H0: ind -0.45 same -0.43 prevq +0.02 | H1: ind -0.50 same -0.38 prevq +1.19 | H2: ind +0.12 same -0.47 prevq -0.37 | H3: ind +0.27 same -0.80 prevq +0.41 | H4: ind -0.58 same -0.47 prevq -0.16 | H5: ind -0.02 same -0.50 prevq +0.28
+L3 H0: ind -0.13 same +1.22 prevq +1.03 | H1: ind +2.91 same +1.26 prevq -1.30 | H2: ind +0.26 same +0.15 prevq +0.12 | H3: ind -0.01 same +0.01 prevq +0.35 | H4: ind -0.30 same +0.34 prevq +0.15 | H5: ind +0.25 same +0.31 prevq +0.12
+baseline sd ~ 1.0
+
+```

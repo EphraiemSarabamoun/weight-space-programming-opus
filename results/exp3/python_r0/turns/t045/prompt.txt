@@ -1,0 +1,12 @@
+OUTPUT of run 44 of at most 100:
+```
+S-plane read: std over neurons [0.02 0.05]  |row| mean 0.94
+tok 11 repeat n1465: S-read [ 0.02 -0.1 ] bias -0.41 | single cur-detectors S-read: [[0.0, 0.0], [0.0, 0.0], [-0.0, -0.029999999329447746]] bias [0.04, 0.03, -0.18]
+tok 4 repeat n524: S-read [ 0.03 -0.17] bias -0.34 | single cur-detectors S-read: [[-0.009999999776482582, 0.009999999776482582], [0.05999999865889549, 0.009999999776482582], [0.009999999776482582, 0.0]] bias [-0.41, -0.57, -0.1]
+tok 12 repeat n1214: S-read [ 0.03 -0.13] bias -0.12 | single cur-detectors S-read: [[-0.0, -0.009999999776482582], [-0.0, -0.009999999776482582], [-0.0, -0.009999999776482582]] bias [0.12, 0.08, 0.09]
+tok 8 repeat n360: S-read [ 0.01 -0.09] bias -0.15 | single cur-detectors S-read: [[-0.009999999776482582, -0.0], [-0.009999999776482582, -0.009999999776482582], [0.0, -0.019999999552965164]] bias [0.06, 0.09, 0.07]
+tok 10 repeat n213: S-read [ 0.02 -0.08] bias -0.29 | single cur-detectors S-read: [[-0.0, -0.009999999776482582], [-0.0, -0.009999999776482582], [-0.0, -0.009999999776482582]] bias [0.11, 0.08, 0.07]
+all neurons S-read along dir0: pct5 -0.01 median 0.00 pct95 0.05
+all neurons S-read along dir1: pct5 -0.17 median -0.02 pct95 -0.01
+
+```

@@ -1,0 +1,15 @@
+OUTPUT of run 20 of at most 100:
+```
+L1 induction-via-L0H2: H0: tr/F -0.11 re -0.20 | H1: tr/F -0.00 re -0.00 | H2: tr/F +0.25 re +0.30 | H3: tr/F +0.23 re +0.33 | H4: tr/F +0.25 re +0.33 | H5: tr/F +0.08 re +0.15
+L2 induction-via-L0H2: H0: tr/F -0.08 re -0.10 | H1: tr/F -0.10 re -0.11 | H2: tr/F +0.02 re +0.02 | H3: tr/F +0.05 re +0.06 | H4: tr/F -0.14 re -0.17 | H5: tr/F +0.01 re +0.01
+L3 induction-via-L0H2: H0: tr/F -0.04 re -0.05 | H1: tr/F +1.17 re +0.84 | H2: tr/F +0.06 re +0.07 | H3: tr/F +0.02 re +0.03 | H4: tr/F -0.10 re -0.11 | H5: tr/F +0.05 re +0.06
+control L3H1 with L0H0: tr/F -0.06
+control L3H1 with L0H1: tr/F -0.09
+control L3H1 with L0H3: tr/F 0.02
+control L3H1 with L0H4: tr/F -0.13
+control L3H1 with L0H5: tr/F -0.09
+random-OV control tr/F -0.02
+random-OV control tr/F 0.01
+random-OV control tr/F 0.02
+
+```

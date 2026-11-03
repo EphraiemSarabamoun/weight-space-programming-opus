@@ -1,0 +1,24 @@
+OUTPUT of run 12 of at most 100:
+```
+T sv after orth [1.   1.   1.   0.99 0.99 0.99 0.98 0.98 0.98 0.97 0.96 0.96 0.95 0.94
+ 0.92 0.92 0.9  0.89 0.85 0.76 0.72 0.64 0.57 0.43]
+0 q P 0.58 T 0.06 | k P 0.21 T 0.15 | v P 0.77 T 0.06
+    PP 0.16    PT 0.29    TP 0.04    TT 0.07 tot 0.44
+    OV: from P 8.63 from T 1.48 tot 9.04
+1 q P 0.38 T 0.07 | k P 0.27 T 0.09 | v P 0.77 T 0.06
+    PP 0.11    PT 0.08    TP 0.03    TT 0.02 tot 0.24
+    OV: from P 6.68 from T 1.12 tot 6.97
+2 q P 0.95 T 0.01 | k P 0.95 T 0.01 | v P 0.26 T 0.59
+    PP 31.86    PT 1.85    TP 1.76    TT 0.36 tot 32.63
+    OV: from P 0.96 from T 2.30 tot 2.54
+3 q P 0.52 T 0.08 | k P 0.68 T 0.09 | v P 0.27 T 0.21
+    PP 2.57    PT 0.56    TP 0.63    TT 0.18 tot 3.16
+    OV: from P 0.90 from T 0.96 tot 1.77
+4 q P 0.36 T 0.10 | k P 0.26 T 0.10 | v P 0.64 T 0.09
+    PP 0.29    PT 0.22    TP 0.14    TT 0.10 tot 0.85
+    OV: from P 3.74 from T 0.77 tot 4.03
+5 q P 0.58 T 0.04 | k P 0.28 T 0.09 | v P 0.73 T 0.09
+    PP 0.33    PT 0.21    TP 0.05    TT 0.03 tot 0.62
+    OV: from P 8.72 from T 2.22 tot 9.31
+
+```

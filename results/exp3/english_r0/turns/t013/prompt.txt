@@ -1,0 +1,23 @@
+OUTPUT of run 12 of at most 100:
+```
+B outputs sv [12.    8.43  3.36  1.31  1.    0.86]
+L1H0 |qconst|=3.86 |q-const->key dir|=10.86 frac in B=0.77 inP=0.11; topQK sv [4.78 3.86] q-side inB 0.07 inP 0.02  k-side inB 0.84 inP 0.17 | cos(q-side, lnb)=0.30
+L1H1 |qconst|=4.97 |q-const->key dir|=18.28 frac in B=0.81 inP=0.11; topQK sv [7.05 5.33] q-side inB 0.07 inP 0.05  k-side inB 0.79 inP 0.12 | cos(q-side, lnb)=0.40
+L1H2 |qconst|=4.68 |q-const->key dir|=20.70 frac in B=0.81 inP=0.11; topQK sv [7.96 6.88] q-side inB 0.08 inP 0.06  k-side inB 0.78 inP 0.10 | cos(q-side, lnb)=0.42
+L1H3 |qconst|=4.70 |q-const->key dir|=18.81 frac in B=0.79 inP=0.11; topQK sv [7.36 5.91] q-side inB 0.07 inP 0.04  k-side inB 0.80 inP 0.12 | cos(q-side, lnb)=0.39
+L1H4 |qconst|=4.46 |q-const->key dir|=18.32 frac in B=0.83 inP=0.12; topQK sv [7.58 6.95] q-side inB 0.07 inP 0.04  k-side inB 0.82 inP 0.13 | cos(q-side, lnb)=0.39
+L1H5 |qconst|=4.20 |q-const->key dir|=14.02 frac in B=0.78 inP=0.11; topQK sv [7.15 5.91] q-side inB 0.08 inP 0.05  k-side inB 0.77 inP 0.12 | cos(q-side, lnb)=0.33
+L2H0 |qconst|=3.69 |q-const->key dir|=13.59 frac in B=0.85 inP=0.14; topQK sv [5.56 5.04] q-side inB 0.11 inP 0.04  k-side inB 0.53 inP 0.13 | cos(q-side, lnb)=0.45
+L2H1 |qconst|=2.35 |q-const->key dir|=5.96 frac in B=0.79 inP=0.13; topQK sv [4.21 3.6 ] q-side inB 0.00 inP 0.01  k-side inB 0.10 inP 0.04 | cos(q-side, lnb)=0.12
+L2H2 |qconst|=2.29 |q-const->key dir|=6.04 frac in B=0.80 inP=0.12; topQK sv [4.86 4.02] q-side inB 0.07 inP 0.05  k-side inB 0.70 inP 0.07 | cos(q-side, lnb)=0.24
+L2H3 |qconst|=3.00 |q-const->key dir|=11.70 frac in B=0.87 inP=0.15; topQK sv [4.5  4.21] q-side inB 0.17 inP 0.03  k-side inB 0.56 inP 0.14 | cos(q-side, lnb)=0.47
+L2H4 |qconst|=3.21 |q-const->key dir|=12.62 frac in B=0.86 inP=0.15; topQK sv [5.02 4.83] q-side inB 0.16 inP 0.06  k-side inB 0.54 inP 0.08 | cos(q-side, lnb)=0.46
+L2H5 |qconst|=3.25 |q-const->key dir|=12.07 frac in B=0.85 inP=0.15; topQK sv [5.11 4.32] q-side inB 0.10 inP 0.03  k-side inB 0.43 inP 0.10 | cos(q-side, lnb)=0.43
+L3H0 |qconst|=1.26 |q-const->key dir|=2.07 frac in B=0.15 inP=0.03; topQK sv [3.61 3.36] q-side inB 0.00 inP 0.05  k-side inB 0.03 inP 0.03 | cos(q-side, lnb)=0.04
+L3H1 |qconst|=1.42 |q-const->key dir|=1.93 frac in B=0.03 inP=0.04; topQK sv [2.62 2.54] q-side inB 0.00 inP 0.05  k-side inB 0.00 inP 0.04 | cos(q-side, lnb)=0.02
+L3H2 |qconst|=1.19 |q-const->key dir|=2.32 frac in B=0.59 inP=0.13; topQK sv [3.77 3.29] q-side inB 0.02 inP 0.04  k-side inB 0.58 inP 0.11 | cos(q-side, lnb)=0.20
+L3H3 |qconst|=1.21 |q-const->key dir|=2.88 frac in B=0.67 inP=0.15; topQK sv [3.98 3.22] q-side inB 0.04 inP 0.04  k-side inB 0.46 inP 0.11 | cos(q-side, lnb)=0.21
+L3H4 |qconst|=1.32 |q-const->key dir|=2.46 frac in B=0.52 inP=0.11; topQK sv [4.23 3.3 ] q-side inB 0.00 inP 0.04  k-side inB 0.30 inP 0.06 | cos(q-side, lnb)=0.12
+L3H5 |qconst|=1.10 |q-const->key dir|=1.32 frac in B=0.03 inP=0.03; topQK sv [2.08 1.88] q-side inB 0.00 inP 0.02  k-side inB 0.00 inP 0.06 | cos(q-side, lnb)=0.11
+
+```

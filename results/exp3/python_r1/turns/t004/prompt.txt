@@ -1,0 +1,28 @@
+OUTPUT of run 3 of at most 100:
+```
+L0H0 |q|1.94 |k|1.34 |v|2.13 |o|5.21  QKpos -0.45 imagfrac 0.35 max|ev| 0.39  OVpos +0.61
+L0H1 |q|4.40 |k|6.29 |v|2.02 |o|10.20  QKpos -0.20 imagfrac 0.65 max|ev| 3.27  OVpos +0.04
+L0H2 |q|2.23 |k|2.39 |v|1.52 |o|5.54  QKpos +0.17 imagfrac 0.16 max|ev| 0.72  OVpos +0.01
+L0H3 |q|2.73 |k|2.24 |v|1.42 |o|5.47  QKpos -0.61 imagfrac 0.30 max|ev| 0.62  OVpos +0.16
+L0H4 |q|0.64 |k|0.84 |v|4.02 |o|8.94  QKpos -0.15 imagfrac 0.60 max|ev| 0.01  OVpos +0.75
+L0H5 |q|5.63 |k|7.35 |v|2.09 |o|10.60  QKpos +0.31 imagfrac 0.76 max|ev| 2.75  OVpos -0.47
+L1H0 |q|5.00 |k|5.17 |v|6.26 |o|11.17  QKpos -0.30 imagfrac 0.52 max|ev| 0.47  OVpos -0.83
+L1H1 |q|6.98 |k|8.22 |v|5.30 |o|10.66  QKpos -0.52 imagfrac 0.45 max|ev| 2.17  OVpos -0.77
+L1H2 |q|6.05 |k|7.36 |v|5.84 |o|11.19  QKpos -0.42 imagfrac 0.49 max|ev| 1.67  OVpos -0.81
+L1H3 |q|6.09 |k|7.68 |v|5.42 |o|10.14  QKpos -0.35 imagfrac 0.47 max|ev| 2.25  OVpos -0.72
+L1H4 |q|6.03 |k|7.57 |v|5.28 |o|9.91  QKpos -0.32 imagfrac 0.52 max|ev| 1.98  OVpos -0.72
+L1H5 |q|6.77 |k|7.81 |v|5.41 |o|10.92  QKpos -0.55 imagfrac 0.44 max|ev| 1.72  OVpos -0.83
+L2H0 |q|11.27 |k|10.73 |v|10.27 |o|13.64  QKpos -0.13 imagfrac 0.62 max|ev| 1.09  OVpos -0.77
+L2H1 |q|10.82 |k|10.66 |v|10.91 |o|14.21  QKpos +0.54 imagfrac 0.51 max|ev| 1.17  OVpos -0.81
+L2H2 |q|12.77 |k|12.33 |v|9.65 |o|13.00  QKpos +0.24 imagfrac 0.51 max|ev| 2.07  OVpos -0.71
+L2H3 |q|11.11 |k|10.82 |v|10.78 |o|14.25  QKpos -0.09 imagfrac 0.63 max|ev| 1.55  OVpos -0.78
+L2H4 |q|11.49 |k|11.17 |v|10.02 |o|13.50  QKpos +0.01 imagfrac 0.58 max|ev| 1.88  OVpos -0.85
+L2H5 |q|10.22 |k|9.83 |v|11.59 |o|15.08  QKpos -0.20 imagfrac 0.63 max|ev| 0.86  OVpos -0.69
+L3H0 |q|11.55 |k|11.18 |v|12.09 |o|15.37  QKpos +0.39 imagfrac 0.55 max|ev| 1.04  OVpos -0.76
+L3H1 |q|10.36 |k|10.22 |v|12.11 |o|15.27  QKpos +0.55 imagfrac 0.55 max|ev| 0.90  OVpos -0.81
+L3H2 |q|11.58 |k|11.11 |v|12.34 |o|16.03  QKpos +0.16 imagfrac 0.66 max|ev| 0.96  OVpos -0.76
+L3H3 |q|8.12 |k|8.09 |v|13.89 |o|18.20  QKpos +0.00 imagfrac 0.65 max|ev| 0.54  OVpos -0.68
+L3H4 |q|10.53 |k|10.20 |v|12.62 |o|16.26  QKpos +0.00 imagfrac 0.60 max|ev| 0.84  OVpos -0.59
+L3H5 |q|11.59 |k|11.35 |v|10.76 |o|14.16  QKpos +0.90 imagfrac 0.37 max|ev| 1.82  OVpos -0.92
+
+```

@@ -1,0 +1,14 @@
+OUTPUT of run 34 of at most 100:
+```
+0 QK sv top3 [0.411 0.092 0.057]  u.b(ln bias)=-0.14  v.b=0.03
+1 QK sv top3 [0.2   0.076 0.042]  u.b(ln bias)=0.07  v.b=0.01
+4 QK sv top3 [0.714 0.428 0.132]  u.b(ln bias)=-0.04  v.b=0.06
+5 QK sv top3 [0.607 0.086 0.037]  u.b(ln bias)=-0.12  v.b=0.11
+stacked key dirs sv: [1.36 1.11 0.83 0.48]
+cos between key dirs restricted to T:
+ [[ 1.   -0.43 -0.36  0.41]
+ [-0.43  1.    0.18 -0.33]
+ [-0.36  0.18  1.    0.54]
+ [ 0.41 -0.33  0.54  1.  ]]
+
+```

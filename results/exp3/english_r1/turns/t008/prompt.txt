@@ -1,0 +1,9 @@
+OUTPUT of run 7 of at most 100:
+```
+
+[stderr]
+Traceback (most recent call last):
+  File "<string>", line 6, in <module>
+NameError: name 'H' is not defined. Did you mean: 'h'?
+
+```

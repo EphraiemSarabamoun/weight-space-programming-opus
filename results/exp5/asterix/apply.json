@@ -1,0 +1,35 @@
+{
+ "edit_report": {
+  "block": true,
+  "statements": 92,
+  "applied": 92,
+  "entries_written": 526,
+  "errors": [],
+  "tensors_touched": [
+   "W1",
+   "W2",
+   "W3",
+   "b1",
+   "b2",
+   "b3"
+  ]
+ },
+ "nonzero": {
+  "W1": 264,
+  "b1": 24,
+  "W2": 112,
+  "b2": 24,
+  "W3": 24,
+  "b3": 6
+ },
+ "nonzero_total": 454,
+ "parameters": 20486,
+ "max_abs": {
+  "W1": 40.0,
+  "b1": 8.0,
+  "W2": 10.0,
+  "b2": 13.1355,
+  "W3": 12.0,
+  "b3": 84.0
+ }
+}

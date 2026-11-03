@@ -1,0 +1,23 @@
+OUTPUT of run 7 of at most 100:
+```
+Vstack sv [3.43 3.34 3.24 3.07 3.04 2.94 2.92 2.87 2.84 2.81 2.76 2.73 2.66 2.6  2.58 2.53 2.51 2.43 2.4  2.36 2.32 2.26 2.19 2.1  1.98 1.88 1.84 1.29 1.2  1.11 1.09 1.01 1.   0.99 0.96 0.91 0.91 0.9  0.89 0.89 0.87 0.86 0.83
+ 0.82 0.8 ]
+QK15 stack sv [6.62 6.56 6.28 6.24 5.88 5.74 5.55 5.47 5.44 5.4  5.35 5.15 5.1  4.96 4.91 4.86 4.74 4.59 4.36 4.33 4.17 3.56 3.54 3.17 3.02 2.79 2.76 2.62 2.53 2.52 2.42 2.35 2.27 2.2  2.12 2.04 2.01 1.96 1.91 1.89 1.83 1.8  1.74
+ 1.71 1.67 1.66 1.65 1.61 1.53 1.49 1.41 1.39 1.38 1.36 1.32 1.31 1.27 1.26 1.22 1.19]
+24 20 cos of principal angles top [0.31 0.28 0.24 0.23 0.22 0.16] sum cos^2 0.49
+24 30 cos of principal angles top [0.93 0.77 0.57 0.4  0.33 0.32] sum cos^2 2.56
+24 40 cos of principal angles top [0.97 0.96 0.94 0.92 0.9  0.84] sum cos^2 6.72
+28 20 cos of principal angles top [0.52 0.32 0.29 0.24 0.22 0.21] sum cos^2 0.8
+28 30 cos of principal angles top [0.95 0.79 0.69 0.56 0.41 0.33] sum cos^2 3.14
+28 40 cos of principal angles top [0.97 0.96 0.96 0.95 0.94 0.89] sum cos^2 7.68
+32 20 cos of principal angles top [0.87 0.83 0.74 0.6  0.38 0.29] sum cos^2 2.9
+32 30 cos of principal angles top [0.95 0.89 0.89 0.83 0.8  0.76] sum cos^2 5.64
+32 40 cos of principal angles top [0.97 0.97 0.96 0.96 0.94 0.91] sum cos^2 10.36
+L0H0 OV right sv0 6.90: frac in T28 0.41, in P30 0.19
+L0H0 OV right sv1 3.90: frac in T28 0.22, in P30 0.74
+L0H0 OV right sv2 1.94: frac in T28 0.82, in P30 0.46
+L0H4 OV right sv0 18.81: frac in T28 0.10, in P30 0.80
+L0H4 OV right sv1 15.37: frac in T28 0.13, in P30 0.62
+L0H4 OV right sv2 5.59: frac in T28 0.20, in P30 0.55
+
+```

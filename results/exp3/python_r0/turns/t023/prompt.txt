@@ -1,0 +1,38 @@
+OUTPUT of run 22 of at most 100:
+```
+commutators: S1S5 0.06 A1A5 0.06 S1A1 0.08 S5A5 0.09 S1A5 0.06 | random sym-sym 0.26
+planes from A5
+   H1: r= 1.81 th=  -172 inv=0.64 aniso=0.06 | H5: r=10.97 th=   -75 inv=0.97 aniso=0.21
+   H1: r= 1.83 th=  -144 inv=0.61 aniso=0.21 | H5: r=11.12 th=   -63 inv=0.93 aniso=0.28
+   H1: r= 1.81 th=   176 inv=0.58 aniso=0.08 | H5: r= 9.52 th=   -79 inv=0.93 aniso=0.34
+   H1: r= 1.43 th=  -152 inv=0.55 aniso=0.01 | H5: r= 9.20 th=   -63 inv=0.92 aniso=0.45
+   H1: r= 9.17 th=   132 inv=0.92 aniso=0.27 | H5: r= 7.92 th=  -105 inv=0.95 aniso=0.01
+   H1: r= 1.79 th=  -149 inv=0.44 aniso=0.03 | H5: r= 6.73 th=    74 inv=0.78 aniso=0.20
+   H1: r= 5.17 th=  -132 inv=0.73 aniso=0.21 | H5: r= 6.00 th=    87 inv=0.78 aniso=0.05
+   H1: r= 1.08 th=   176 inv=0.29 aniso=0.02 | H5: r= 6.82 th=    52 inv=0.81 aniso=0.07
+   H1: r= 3.94 th=    65 inv=0.75 aniso=0.39 | H5: r= 5.05 th=    57 inv=0.90 aniso=0.22
+   H1: r= 0.89 th=   133 inv=0.24 aniso=0.10 | H5: r= 3.36 th=   -89 inv=0.72 aniso=0.42
+planes from A1
+   H1: r=10.88 th=   127 inv=0.99 aniso=0.24 | H5: r= 7.83 th=  -112 inv=0.98 aniso=0.11
+   H1: r= 7.73 th=   129 inv=0.97 aniso=0.02 | H5: r= 6.47 th=  -114 inv=0.90 aniso=0.06
+   H1: r= 5.50 th=   -62 inv=0.94 aniso=0.26 | H5: r= 4.69 th=   -49 inv=0.83 aniso=0.04
+   H1: r= 2.80 th=    96 inv=0.86 aniso=0.13 | H5: r= 7.62 th=    30 inv=0.74 aniso=0.41
+   H1: r= 2.79 th=   119 inv=0.83 aniso=0.16 | H5: r= 2.52 th=   -94 inv=0.38 aniso=0.30
+   H1: r= 2.23 th=  -102 inv=0.86 aniso=0.12 | H5: r=10.76 th=   -43 inv=0.95 aniso=0.25
+   H1: r= 2.01 th=   -78 inv=0.78 aniso=0.16 | H5: r= 8.76 th=   -32 inv=0.85 aniso=0.59
+   H1: r= 1.60 th=  -127 inv=0.73 aniso=0.28 | H5: r= 7.15 th=   -48 inv=0.73 aniso=0.47
+   H1: r= 1.47 th=   139 inv=0.64 aniso=0.33 | H5: r= 3.87 th=   -88 inv=0.49 aniso=0.72
+   H1: r= 1.42 th=  -157 inv=0.50 aniso=1.36 | H5: r= 1.42 th=    13 inv=0.25 aniso=0.59
+planes from A1+A5
+   H1: r= 5.31 th=    75 inv=0.82 aniso=0.34 | H5: r= 5.18 th=    50 inv=0.70 aniso=0.13
+   H1: r= 6.74 th=   121 inv=0.84 aniso=0.11 | H5: r= 2.27 th=    21 inv=0.23 aniso=0.14
+   H1: r= 5.44 th=  -116 inv=0.76 aniso=0.27 | H5: r= 3.90 th=   -32 inv=0.38 aniso=0.10
+   H1: r= 2.38 th=  -112 inv=0.75 aniso=0.12 | H5: r=10.22 th=   -47 inv=0.91 aniso=0.18
+   H1: r= 1.95 th=   121 inv=0.70 aniso=0.09 | H5: r= 9.07 th=    52 inv=0.88 aniso=0.15
+   H1: r= 2.75 th=   134 inv=0.66 aniso=0.19 | H5: r= 5.88 th=    68 inv=0.63 aniso=0.08
+   H1: r= 5.47 th=   133 inv=0.83 aniso=0.10 | H5: r= 1.96 th=  -112 inv=0.24 aniso=0.01
+   H1: r= 1.14 th=  -125 inv=0.42 aniso=0.30 | H5: r= 6.46 th=   -62 inv=0.71 aniso=0.08
+   H1: r= 0.85 th=   102 inv=0.44 aniso=0.48 | H5: r= 6.08 th=    52 inv=0.79 aniso=0.69
+   H1: r= 0.99 th=  -168 inv=0.52 aniso=0.50 | H5: r= 5.47 th=    88 inv=0.82 aniso=1.51
+
+```

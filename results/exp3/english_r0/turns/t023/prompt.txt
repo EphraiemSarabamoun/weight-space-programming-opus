@@ -1,0 +1,31 @@
+OUTPUT of run 22 of at most 100:
+```
+L0H0 OV top2 sv [8.07 3.33]; out dirs in B coords: [[-0.93  0.36  0.07]
+ [ 0.31  0.89 -0.32]]  in-B frac [0.99, 0.99]
+L0H1 OV top2 sv [5.66 3.83]; out dirs in B coords: [[-0.9   0.4  -0.16]
+ [ 0.4   0.91  0.04]]  in-B frac [0.99, 0.99]
+L0H3 OV top2 sv [1.03 0.97]; out dirs in B coords: [[-0.27  0.79 -0.44]
+ [ 0.02  0.03 -0.05]]  in-B frac [0.9, 0.0]
+L0H4 OV top2 sv [3.4  1.64]; out dirs in B coords: [[ 0.91 -0.39  0.11]
+ [-0.38 -0.9  -0.06]]  in-B frac [0.99, 0.97]
+L0H5 OV top2 sv [8.33 3.61]; out dirs in B coords: [[ 0.8   0.6   0.01]
+ [ 0.56 -0.76 -0.25]]  in-B frac [1.0, 0.95]
+key dirs |cos|:
+[[1.   0.26 0.   0.38 0.1 ]
+ [0.26 1.   0.12 0.26 0.14]
+ [0.   0.12 1.   0.1  0.01]
+ [0.38 0.26 0.1  1.   0.64]
+ [0.1  0.14 0.01 0.64 1.  ]]
+query dirs |cos|:
+[[1.   0.77 0.8  0.13 0.24]
+ [0.77 1.   0.74 0.23 0.05]
+ [0.8  0.74 1.   0.06 0.03]
+ [0.13 0.23 0.06 1.   0.33]
+ [0.24 0.05 0.03 0.33 1.  ]]
+0 key dir frac in T30: 0.58  query dir frac in T30: 0.19
+1 key dir frac in T30: 0.30  query dir frac in T30: 0.15
+3 key dir frac in T30: 0.18  query dir frac in T30: 0.23
+4 key dir frac in T30: 0.17  query dir frac in T30: 0.16
+5 key dir frac in T30: 0.24  query dir frac in T30: 0.05
+
+```

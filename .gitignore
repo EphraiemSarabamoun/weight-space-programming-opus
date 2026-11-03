@@ -2,4 +2,13 @@
 .clean_cwd/
 __pycache__/
 *.pyc
-.venv/
+.venv*/
+logs/
+# First-turn prompts are byte-identical copies of the authors' released prompts (checked: 18 / 18); they are not
+# redistributed here (Experiment 5's include GPL-3.0 MinAtar source). Get them with ./fetch_ref.sh.
+results/exp1/*/prompt.txt
+results/exp2/*/prompt.txt
+results/exp4/oneshot_repair/reply/prompt.txt
+results/exp5/*/reply/prompt.txt
+results/exp3/*/turns/t001/prompt.txt
+results/exp6/budget_0/turns/t001/prompt.txt

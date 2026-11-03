@@ -1,0 +1,16 @@
+OUTPUT of run 25 of at most 100:
+```
+E top 20 energy of m 0.056 (rand 0.052)
+E top 40 energy of m 0.182 (rand 0.104)
+E top 60 energy of m 0.304 (rand 0.156)
+E top 100 energy of m 0.412 (rand 0.260)
+E top 150 energy of m 0.541 (rand 0.391)
+Wo0 out top 5 energy of m 0.007
+Wo0 out top 20 energy of m 0.059
+Wo0 out top 60 energy of m 0.405
+Wo0 out top 100 energy of m 0.612
+Wo0 top sv [7.36 6.1  3.17 2.45 2.32 2.2  2.17 2.16]
+cos(m, Wo0 top 5 out dirs) [ 0.03  0.03 -0.05  0.05 -0.02]
+neurons bias input F@b for these [-0.09 -0.27 -0.35 -0.23 -0.2  -0.14 -0.21 -0.17]  typical |F@b| median 0.11
+
+```

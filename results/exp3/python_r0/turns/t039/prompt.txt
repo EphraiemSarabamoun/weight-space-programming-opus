@@ -1,0 +1,16 @@
+OUTPUT of run 38 of at most 100:
+```
+seed 0: pair (cur,prev) off-diag: mean 2.58 99pct 5.85 max 7.64; diag sorted: [10.5 10.  10.   5.3  4.5  4.5]
+   triple same sorted: [(4, 6.2), (2, 4.5), (23, 4.3), (9, 4.2), (6, 4.2)]
+   non-identical triples: 99pct 3.65 max 5.76
+   top token 4 row (cur=t4, prev=s) top: [(10.0, 4), (4.7, 13), (4.3, 20), (4.3, 11)]  col (cur=s, prev=t4): [(10.0, 4), (6.8, 11), (4.7, 21), (3.6, 13)]
+seed 1: pair (cur,prev) off-diag: mean 2.55 99pct 6.22 max 9.50; diag sorted: [13.7 10.4 10.   6.3  5.5  5.1]
+   triple same sorted: [(1, 6.3), (26, 6.2), (16, 4.4), (19, 4.2), (25, 4.1)]
+   non-identical triples: 99pct 4.08 max 8.51
+   top token 1 row (cur=t4, prev=s) top: [(6.3, 1), (6.0, 16), (5.3, 22), (4.8, 4)]  col (cur=s, prev=t4): [(6.3, 1), (6.0, 25), (4.6, 26), (4.5, 23)]
+seed 2: pair (cur,prev) off-diag: mean 2.54 99pct 5.94 max 8.03; diag sorted: [13.8 10.5  7.7  5.5  4.8  4.5]
+   triple same sorted: [(4, 4.5), (14, 4.2), (10, 4.1), (12, 3.8), (13, 3.6)]
+   non-identical triples: 99pct 3.34 max 5.65
+   top token 4 row (cur=t4, prev=s) top: [(8.0, 13), (5.3, 16), (4.8, 18), (4.5, 4)]  col (cur=s, prev=t4): [(4.7, 25), (4.5, 4), (3.9, 24), (3.8, 10)]
+
+```

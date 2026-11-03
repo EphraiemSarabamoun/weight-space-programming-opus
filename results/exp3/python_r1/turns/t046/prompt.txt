@@ -1,0 +1,31 @@
+OUTPUT of run 45 of at most 100:
+```
+cur=13: top detector neurons (z of cur within neuron) [5.  5.  4.9 4.9 4.8 4.8 4.7 4.7 4.6 4.5 4.5 4.4]
+   n483: prev top [ 4 22  3 10] z [2.5 2.3 1.7 1.3]  prev bottom [12  9  8] z [-1.3 -1.5 -1.5]   z(prev=13) -0.6 z(prev=19) 0.1
+   n344: prev top [17 26 15 22] z [1.6 1.4 1.4 1.3]  prev bottom [ 5 23 13] z [-1.4 -1.5 -3. ]   z(prev=13) -3.0 z(prev=19) 0.4
+   n1332: prev top [16 26 24  3] z [2.7 1.6 1.2 1. ]  prev bottom [ 8 15 22] z [-1.7 -2.1 -2.1]   z(prev=13) -0.2 z(prev=19) 0.2
+   n659: prev top [ 7 18  3 23] z [2.1 1.4 1.3 1.1]  prev bottom [12 17  9] z [-1.3 -1.6 -2. ]   z(prev=13) -1.1 z(prev=19) -0.6
+   n736: prev top [25  6  4 17] z [1.3 1.3 1.2 1.1]  prev bottom [13 19  7] z [-2.  -2.1 -2.3]   z(prev=13) -2.0 z(prev=19) -2.1
+   n821: prev top [17  4 24 21] z [2.6 1.3 1.2 0.7]  prev bottom [ 8 22 19] z [-1.2 -1.9 -2.7]   z(prev=13) 0.2 z(prev=19) -2.7
+   n456: prev top [17 13  9 14] z [2.4 2.2 1.5 1.1]  prev bottom [16 26 18] z [-1.4 -1.5 -1.9]   z(prev=13) 2.2 z(prev=19) 0.0
+   n644: prev top [25 14  3 10] z [1.8 1.7 1.4 1.3]  prev bottom [16 13 26] z [-1.9 -1.9 -2.2]   z(prev=13) -1.9 z(prev=19) -0.1
+cur=19: top detector neurons (z of cur within neuron) [4.9 4.9 4.9 4.7 4.7 4.7 4.6 4.5 4.4 4.4 4.2 4.1]
+   n411: prev top [22 25 14  2] z [1.5 1.4 1.2 1.1]  prev bottom [26 24 17] z [-1.2 -2.4 -2.4]   z(prev=13) -0.5 z(prev=19) -1.0
+   n1325: prev top [14 25 22  9] z [2.2 2.  1.4 1. ]  prev bottom [ 5 24  4] z [-1.2 -1.9 -1.9]   z(prev=13) 0.1 z(prev=19) -0.8
+   n1388: prev top [ 4 14 25 22] z [1.6 1.4 1.3 1.1]  prev bottom [24 19 26] z [-1.6 -2.1 -2.4]   z(prev=13) -0.1 z(prev=19) -2.1
+   n1417: prev top [19 10  0 15] z [2.6 1.6 1.2 0.9]  prev bottom [ 4 12  3] z [-1.4 -1.7 -2.4]   z(prev=13) 0.6 z(prev=19) 2.6
+   n259: prev top [ 8  2  5 25] z [1.1 1.1 0.8 0.7]  prev bottom [13 17 19] z [-0.4 -2.2 -4. ]   z(prev=13) -0.4 z(prev=19) -4.0
+   n870: prev top [ 7 14 25 17] z [2.  1.7 1.5 1.4]  prev bottom [ 8 24  5] z [-1.4 -1.5 -1.5]   z(prev=13) 0.4 z(prev=19) -1.1
+   n1461: prev top [19 12 26 13] z [2.3 1.8 1.3 1. ]  prev bottom [2 0 8] z [-1.2 -1.7 -2.1]   z(prev=13) 1.0 z(prev=19) 2.3
+   n1465: prev top [19  9 17 13] z [4.1 1.3 1.  0.7]  prev bottom [22  3  7] z [-0.9 -1.  -1.3]   z(prev=13) 0.7 z(prev=19) 4.1
+cur=21: top detector neurons (z of cur within neuron) [5.1 5.1 4.6 4.2 3.9 3.8 3.6 3.  2.8 2.6 2.6 2.6]
+   n305: prev top [24 15  4 23] z [2.2 2.  2.  0.9]  prev bottom [18  0  9] z [-1.2 -1.3 -2. ]   z(prev=13) 0.5 z(prev=19) 0.3
+   n35: prev top [15 24 18  4] z [1.7 1.7 1.6 1.3]  prev bottom [21 23 10] z [-1.2 -1.3 -2.4]   z(prev=13) -0.5 z(prev=19) -0.6
+   n1287: prev top [ 7 12 20 26] z [2.5 1.2 1.1 1. ]  prev bottom [ 3 10 17] z [-1.4 -1.6 -2.2]   z(prev=13) 0.9 z(prev=19) 0.3
+   n541: prev top [18  9  5 19] z [2.7 2.2 1.3 1.1]  prev bottom [15 22  4] z [-1.3 -1.5 -1.6]   z(prev=13) 0.3 z(prev=19) 1.1
+   n1397: prev top [17 10 24 12] z [1.9 1.6 1.5 1.3]  prev bottom [ 2 14 22] z [-1.2 -1.2 -2.5]   z(prev=13) 0.7 z(prev=19) -0.4
+   n555: prev top [18 17  5  0] z [2.8 1.8 1.5 0.9]  prev bottom [23 15 22] z [-1.1 -1.7 -1.8]   z(prev=13) 0.4 z(prev=19) -0.6
+   n617: prev top [13 16 18  0] z [2.  1.9 1.6 1.1]  prev bottom [22 14  3] z [-1.3 -1.8 -2.2]   z(prev=13) 2.0 z(prev=19) 0.9
+   n1176: prev top [19 13 17 16] z [1.9 1.6 1.5 1.2]  prev bottom [10  4 15] z [-1.3 -1.9 -2.2]   z(prev=13) 1.6 z(prev=19) 1.9
+
+```

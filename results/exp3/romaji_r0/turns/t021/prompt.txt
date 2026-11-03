@@ -1,0 +1,28 @@
+OUTPUT of run 20 of at most 100:
+```
+L0H0 tot   2.35 PP  1.78 TT  0.20 TqPk  0.57 PqTk  0.54 keySink  0.69
+L0H1 tot   1.27 PP  0.66 TT  0.03 TqPk  0.07 PqTk  0.29 keySink  0.13
+L0H2 tot   0.86 PP  0.51 TT  0.04 TqPk  0.06 PqTk  0.31 keySink  0.11
+L0H3 tot   5.59 PP  5.28 TT  0.14 TqPk  0.67 PqTk  0.46 keySink  1.86
+L0H4 tot   0.71 PP  0.30 TT  0.05 TqPk  0.06 PqTk  0.25 keySink  0.08
+L0H5 tot   0.27 PP  0.11 TT  0.02 TqPk  0.01 PqTk  0.17 keySink  0.04
+L1H0 tot  15.85 PP  2.41 TT  2.58 TqPk  1.75 PqTk  1.61 keySink 10.46
+L1H1 tot  14.77 PP  2.38 TT  2.37 TqPk  1.68 PqTk  1.81 keySink 10.19
+L1H2 tot  14.26 PP  2.01 TT  1.94 TqPk  1.52 PqTk  1.45 keySink 10.01
+L1H3 tot  14.33 PP  2.47 TT  1.85 TqPk  1.58 PqTk  1.64 keySink 10.16
+L1H4 tot  13.04 PP  1.66 TT  1.43 TqPk  1.51 PqTk  1.26 keySink  8.81
+L1H5 tot  14.94 PP  2.62 TT  2.58 TqPk  1.63 PqTk  1.81 keySink 10.18
+L2H0 tot  13.08 PP  2.07 TT  0.93 TqPk  1.16 PqTk  1.07 keySink  6.73
+L2H1 tot  17.24 PP  1.96 TT  1.22 TqPk  1.35 PqTk  1.39 keySink  5.59
+L2H2 tot  13.77 PP  1.71 TT  0.93 TqPk  1.02 PqTk  1.10 keySink  5.06
+L2H3 tot  12.99 PP  1.20 TT  0.83 TqPk  0.91 PqTk  0.92 keySink  4.00
+L2H4 tot  17.74 PP  2.25 TT  1.28 TqPk  1.41 PqTk  1.29 keySink  7.45
+L2H5 tot  18.12 PP  2.16 TT  1.41 TqPk  1.44 PqTk  1.46 keySink  6.08
+L3H0 tot  16.23 PP  1.37 TT  1.05 TqPk  1.20 PqTk  1.12 keySink  3.52
+L3H1 tot   9.74 PP  0.88 TT  0.59 TqPk  0.68 PqTk  0.71 keySink  2.50
+L3H2 tot  11.50 PP  1.05 TT  0.66 TqPk  0.83 PqTk  0.82 keySink  3.03
+L3H3 tot  14.55 PP  1.22 TT  1.02 TqPk  1.21 PqTk  0.92 keySink  1.35
+L3H4 tot   5.00 PP  0.46 TT  0.33 TqPk  0.40 PqTk  0.39 keySink  0.63
+L3H5 tot  13.33 PP  1.26 TT  0.86 TqPk  0.99 PqTk  1.04 keySink  3.44
+
+```

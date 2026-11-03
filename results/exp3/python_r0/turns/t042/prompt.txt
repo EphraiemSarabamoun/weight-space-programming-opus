@@ -1,0 +1,19 @@
+OUTPUT of run 41 of at most 100:
+```
+seed 0: T1(top K0)=11 T2=4; pair 99pct offdiag 7.3
+   (cur,prev): T1,T1 10.4 | T2,T2 10.0 | cur T1 prev T2 6.6 | cur T2 prev T1 4.7
+   triples: T1T1T1 4.3 T2T2T2 6.2 T1(cur)T2T2 6.6 T2T1T1 3.3 T1T1T2 5.8 T2T2T1 2.5
+   cur=T1 best prev: [(10.4, 11), (7.9, 13), (6.8, 24)]  cur=T2 best prev: [(10.0, 4), (6.7, 20), (6.1, 21)]
+   prev=T1 best cur: [(10.4, 11), (5.6, 15), (5.6, 14)]  prev=T2 best cur: [(10.0, 4), (6.6, 11), (4.1, 21)]
+seed 3: T1(top K0)=11 T2=18; pair 99pct offdiag 7.3
+   (cur,prev): T1,T1 10.4 | T2,T2 10.0 | cur T1 prev T2 6.6 | cur T2 prev T1 4.7
+   triples: T1T1T1 4.3 T2T2T2 6.2 T1(cur)T2T2 6.6 T2T1T1 3.3 T1T1T2 5.8 T2T2T1 2.5
+   cur=T1 best prev: [(10.4, 11), (7.9, 13), (6.8, 6)]  cur=T2 best prev: [(10.0, 18), (6.7, 23), (6.1, 12)]
+   prev=T1 best cur: [(10.4, 11), (5.6, 25), (5.6, 8)]  prev=T2 best cur: [(10.0, 18), (6.6, 11), (4.1, 12)]
+seed 7: T1(top K0)=1 T2=5; pair 99pct offdiag 7.3
+   (cur,prev): T1,T1 10.4 | T2,T2 10.0 | cur T1 prev T2 6.6 | cur T2 prev T1 4.7
+   triples: T1T1T1 4.3 T2T2T2 6.2 T1(cur)T2T2 6.6 T2T1T1 3.3 T1T1T2 5.8 T2T2T1 2.5
+   cur=T1 best prev: [(10.4, 1), (7.9, 24), (6.8, 9)]  cur=T2 best prev: [(10.0, 5), (6.7, 10), (6.1, 0)]
+   prev=T1 best cur: [(10.4, 1), (5.6, 17), (5.6, 12)]  prev=T2 best cur: [(10.0, 5), (6.6, 1), (4.1, 0)]
+
+```

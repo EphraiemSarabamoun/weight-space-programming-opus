@@ -1,0 +1,48 @@
+OUTPUT of run 26 of at most 100:
+```
+trial 0
+  H1 |l|=15.83 th=  180 q=0.99   H5 |l|= 3.17 th=  180 q=0.77  complex=False
+  H1 |l|=10.70 th=  130 q=0.99   H5 |l|= 8.25 th= -110 q=0.99  complex=True
+  H1 |l|= 7.17 th=  129 q=0.96   H5 |l|= 7.19 th= -111 q=0.95  complex=True
+  H1 |l|= 2.24 th= -116 q=0.91   H5 |l|=11.91 th=  -51 q=0.99  complex=True
+  H1 |l|= 2.20 th=  -89 q=0.91   H5 |l|=10.71 th=  -34 q=0.99  complex=True
+  H1 |l|= 2.01 th=    0 q=0.73   H5 |l|=10.68 th=    0 q=0.98  complex=False
+  H1 |l|= 1.60 th= -130 q=0.86   H5 |l|= 9.81 th=  -55 q=0.99  complex=True
+  H1 |l|= 2.06 th=  163 q=0.73   H5 |l|= 8.96 th=  -82 q=0.97  complex=True
+  H1 |l|= 2.39 th=  133 q=0.88   H5 |l|= 7.50 th= -102 q=0.98  complex=True
+  H1 |l|= 2.04 th=  156 q=0.78   H5 |l|= 7.30 th=  -85 q=0.97  complex=True
+  H1 |l|= 1.45 th=    0 q=0.55   H5 |l|= 6.34 th=    0 q=0.92  complex=False
+  H1 |l|= 3.24 th=   36 q=0.79   H5 |l|= 2.22 th=   22 q=0.59  complex=True
+  H1 |l|= 1.42 th=  135 q=0.78   H5 |l|= 3.52 th= -102 q=0.93  complex=True
+  H1 |l|= 0.12 th=  180 q=0.05   H5 |l|= 2.20 th=    0 q=0.60  complex=False
+trial 1
+  H1 |l|=15.73 th=  180 q=0.99   H5 |l|= 3.09 th=  180 q=0.74  complex=False
+  H1 |l|=10.68 th=  130 q=0.99   H5 |l|= 8.27 th= -109 q=0.99  complex=True
+  H1 |l|= 7.07 th=  129 q=0.96   H5 |l|= 7.24 th= -110 q=0.95  complex=True
+  H1 |l|= 2.25 th= -116 q=0.90   H5 |l|=11.94 th=  -51 q=1.00  complex=True
+  H1 |l|= 2.21 th=  -89 q=0.91   H5 |l|=10.74 th=  -34 q=0.99  complex=True
+  H1 |l|= 1.97 th=    0 q=0.71   H5 |l|=10.65 th=    0 q=0.98  complex=False
+  H1 |l|= 1.60 th= -130 q=0.86   H5 |l|= 9.81 th=  -55 q=0.99  complex=True
+  H1 |l|= 2.09 th=  163 q=0.71   H5 |l|= 8.97 th=  -82 q=0.97  complex=True
+  H1 |l|= 2.40 th=  134 q=0.87   H5 |l|= 7.54 th= -101 q=0.98  complex=True
+  H1 |l|= 2.14 th=  154 q=0.78   H5 |l|= 7.17 th=  -86 q=0.97  complex=True
+  H1 |l|= 1.41 th=    0 q=0.55   H5 |l|= 6.29 th=    0 q=0.93  complex=False
+  H1 |l|= 3.01 th=   30 q=0.75   H5 |l|= 2.20 th=   17 q=0.60  complex=True
+  H1 |l|= 1.45 th=  134 q=0.78   H5 |l|= 3.52 th= -103 q=0.94  complex=True
+  H1 |l|= 0.13 th=  180 q=0.05   H5 |l|= 2.22 th=    0 q=0.60  complex=False
+trial 2
+  H1 |l|=16.14 th=  180 q=1.00   H5 |l|= 3.52 th=  180 q=0.94  complex=False
+  H1 |l|=10.69 th= -129 q=1.00   H5 |l|= 8.02 th=  111 q=0.97  complex=True
+  H1 |l|= 8.01 th= -129 q=1.00   H5 |l|= 6.87 th=  114 q=0.94  complex=True
+  H1 |l|= 2.36 th= -107 q=0.97   H5 |l|=11.81 th=  -48 q=0.99  complex=True
+  H1 |l|= 5.25 th=  -60 q=0.98   H5 |l|= 5.79 th=  -46 q=0.86  complex=True
+  H1 |l|= 2.29 th=  -86 q=0.96   H5 |l|= 9.73 th=  -33 q=0.98  complex=True
+  H1 |l|= 1.63 th= -166 q=0.92   H5 |l|= 9.74 th=  -78 q=0.98  complex=True
+  H1 |l|= 2.12 th=  -42 q=0.96   H5 |l|= 8.68 th=   -9 q=0.98  complex=True
+  H1 |l|= 1.58 th= -121 q=0.94   H5 |l|= 9.27 th=  -52 q=0.98  complex=True
+  H1 |l|= 1.84 th=  165 q=0.89   H5 |l|= 7.91 th=  -91 q=0.94  complex=True
+  H1 |l|= 1.42 th=  166 q=0.81   H5 |l|= 5.52 th=  -90 q=0.86  complex=True
+  H1 |l|= 2.48 th= -131 q=0.88   H5 |l|= 3.35 th=  120 q=0.63  complex=True
+  H1 |l|= 0.50 th=    0 q=0.61   H5 |l|= 2.61 th=    0 q=0.78  complex=False
+
+```

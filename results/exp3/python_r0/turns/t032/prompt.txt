@@ -1,0 +1,27 @@
+OUTPUT of run 31 of at most 100:
+```
+L0H0 query(any) x key-token sv: [3.79 1.84 0.41 0.31 0.31 0.23]
+query dir of top: frac in T 0.09, in P 0.55
+bias key pref |.|=0.46 cos with xdir 0.77
+Vstack: gain(x)=2.94  random mean 2.65  pct 99  T-sv max 3.43 min 1.84
+V0: gain(x)=1.03  random mean 0.59  pct 100  T-sv max 1.57 min 0.08
+V1: gain(x)=1.63  random mean 1.67  pct 34  T-sv max 2.24 min 0.92
+V2: gain(x)=1.35  random mean 0.95  pct 99  T-sv max 2.14 min 0.08
+V3: gain(x)=0.59  random mean 0.71  pct 9  T-sv max 1.37 min 0.11
+V4: gain(x)=1.48  random mean 0.91  pct 100  T-sv max 2.18 min 0.16
+V5: gain(x)=1.95  random mean 1.66  pct 100  T-sv max 2.38 min 0.52
+K0: gain(x)=2.02  random mean 0.48  pct 100  T-sv max 2.03 min 0.05
+K1: gain(x)=0.97  random mean 0.81  pct 93  T-sv max 1.73 min 0.17
+K2: gain(x)=0.86  random mean 0.91  pct 36  T-sv max 1.84 min 0.15
+K3: gain(x)=1.15  random mean 0.86  pct 96  T-sv max 2.25 min 0.11
+K4: gain(x)=0.13  random mean 0.15  pct 16  T-sv max 0.36 min 0.03
+K5: gain(x)=0.88  random mean 0.76  pct 87  T-sv max 1.47 min 0.14
+Q0: gain(x)=0.38  random mean 0.20  pct 99  T-sv max 0.68 min 0.04
+Q1: gain(x)=1.27  random mean 0.88  pct 100  T-sv max 1.75 min 0.16
+Q2: gain(x)=0.57  random mean 0.77  pct 8  T-sv max 1.62 min 0.11
+Q3: gain(x)=0.78  random mean 0.62  pct 93  T-sv max 1.52 min 0.09
+Q4: gain(x)=0.10  random mean 0.09  pct 87  T-sv max 0.16 min 0.03
+Q5: gain(x)=1.07  random mean 0.88  pct 93  T-sv max 1.90 min 0.19
+fc0: gain(x)=6.73  random mean 4.97  pct 100  T-sv max 7.85 min 3.94
+
+```

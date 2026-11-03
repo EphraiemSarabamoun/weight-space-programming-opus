@@ -1,0 +1,15 @@
+OUTPUT of run 24 of at most 100:
+```
+m energy in T 0.042 P 0.085 (rand 0.062 0.083)
+m comps on T dirs [-0.01 -0.01  0.02 -0.01 -0.02  0.04 -0.02  0.02 -0.03 -0.03  0.09 -0.03
+  0.05 -0.1  -0.02  0.    0.    0.06  0.01  0.08 -0.07 -0.04  0.02 -0.  ]
+L0H1 K dir0 sv 0.94: in T 0.03 in P 0.45 cos m -0.26
+L0H1 K dir1 sv 0.43: in T 0.40 in P 0.22 cos m 0.08
+L0H2 K dir0 sv 0.73: in T 0.18 in P 0.50 cos m -0.26
+L0H2 K dir1 sv 0.37: in T 0.07 in P 0.49 cos m -0.11
+L0H4 K dir0 sv 0.63: in T 0.21 in P 0.33 cos m 0.23
+L0H4 K dir1 sv 0.41: in T 0.05 in P 0.53 cos m 0.05
+L0H5 K dir0 sv 0.33: in T 0.51 in P 0.22 cos m -0.19
+L0H5 K dir1 sv 0.20: in T 0.03 in P 0.28 cos m 0.08
+
+```

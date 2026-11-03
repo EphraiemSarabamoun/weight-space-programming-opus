@@ -1,0 +1,59 @@
+{
+ "breakout": {
+  "opus": {
+   "mean": 503.716,
+   "se": 5.641724771947175,
+   "episodes": 1000,
+   "max": 695.0,
+   "mean_length": 8460.062,
+   "cut_at_max_steps": 714
+  },
+  "edit_report": {
+   "block": true,
+   "statements": 142,
+   "applied": 142
+  },
+  "n_errors": 0,
+  "ppo100_best": 15.779,
+  "ppo500_best": 25.344,
+  "astra": 517.411
+ },
+ "seaquest": {
+  "opus": {
+   "mean": 12.184,
+   "se": 0.4205627385028506,
+   "episodes": 1000,
+   "max": 91.0,
+   "mean_length": 461.695,
+   "cut_at_max_steps": 0
+  },
+  "edit_report": {
+   "block": true,
+   "statements": 196,
+   "applied": 196
+  },
+  "n_errors": 0,
+  "ppo100_best": 5.617,
+  "ppo500_best": 88.884,
+  "astra": 53.11
+ },
+ "asterix": {
+  "opus": {
+   "mean": 42.615,
+   "se": 0.9914816240409153,
+   "episodes": 1000,
+   "max": 182.0,
+   "mean_length": 731.279,
+   "cut_at_max_steps": 0
+  },
+  "edit_report": {
+   "block": true,
+   "statements": 92,
+   "applied": 92
+  },
+  "n_errors": 0,
+  "ppo100_best": 25.82,
+  "ppo500_best": 55.204,
+  "astra": 53.178
+ }
+}

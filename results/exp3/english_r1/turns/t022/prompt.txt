@@ -1,0 +1,26 @@
+OUTPUT of run 21 of at most 100:
+```
+0 QK sv [0.411 0.092 0.057 0.037]
+   comp 0 q in P 0.92 T 0.22 | k in P 0.40 T 0.75
+   comp 1 q in P 0.54 T 0.34 | k in P 0.53 T 0.35
+1 QK sv [0.2   0.076 0.042 0.035]
+   comp 0 q in P 0.86 T 0.20 | k in P 0.59 T 0.42
+   comp 1 q in P 0.54 T 0.29 | k in P 0.58 T 0.38
+3 QK sv [2.871 0.953 0.621 0.34 ]
+   comp 0 q in P 0.89 T 0.21 | k in P 0.96 T 0.18
+   comp 1 q in P 0.80 T 0.24 | k in P 0.87 T 0.29
+4 QK sv [0.714 0.428 0.132 0.052]
+   comp 0 q in P 0.61 T 0.27 | k in P 0.50 T 0.34
+   comp 1 q in P 0.71 T 0.38 | k in P 0.58 T 0.51
+5 QK sv [0.607 0.086 0.037 0.03 ]
+   comp 0 q in P 0.92 T 0.13 | k in P 0.59 T 0.38
+   comp 1 q in P 0.50 T 0.29 | k in P 0.57 T 0.25
+key-token dir cosines:
+0 [1.0, 0.51, 0.15, 0.44, 0.43]
+1 [0.51, 1.0, 0.41, 0.61, 0.03]
+3 [0.15, 0.41, 1.0, 0.05, 0.12]
+4 [0.44, 0.61, 0.05, 1.0, 0.55]
+5 [0.43, 0.03, 0.12, 0.55, 1.0]
+fc0 top dir vs key-token dirs [0.05, 0.04, 0.01, 0.03, 0.05]
+
+```

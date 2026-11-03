@@ -1,0 +1,10 @@
+OUTPUT of run 30 of at most 100:
+```
+L0H0 key-on-T sv [0.52 0.18 0.05 0.02 0.02]  query-on-T sv [0.19 0.15 0.03 0.02 0.01] | frac key in T 0.20 q in T 0.08 v in T 0.15
+L0H1 key-on-T sv [1.81 1.24 0.75 0.59 0.48]  query-on-T sv [1.54 0.99 0.65 0.53 0.5 ] | frac key in T 0.14 q in T 0.13 v in T 0.74
+L0H2 key-on-T sv [0.62 0.24 0.21 0.2  0.18]  query-on-T sv [0.3  0.28 0.2  0.17 0.14] | frac key in T 0.30 q in T 0.23 v in T 0.44
+L0H3 key-on-T sv [0.82 0.54 0.26 0.14 0.13]  query-on-T sv [0.4  0.32 0.25 0.15 0.1 ] | frac key in T 0.26 q in T 0.14 v in T 0.32
+L0H4 key-on-T sv [0.01 0.01 0.01 0.01 0.01]  query-on-T sv [0.01 0.01 0.01 0.01 0.  ] | frac key in T 0.09 q in T 0.07 v in T 0.15
+L0H5 key-on-T sv [1.4  1.16 0.85 0.81 0.69]  query-on-T sv [1.29 0.91 0.8  0.71 0.66] | frac key in T 0.12 q in T 0.11 v in T 0.68
+
+```

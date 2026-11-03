@@ -1,0 +1,26 @@
+OUTPUT of run 13 of at most 100:
+```
+L1H0 frac k in Sout 0.221 q 0.011 v 0.001  sv(QK->Sout) [2.61 1.17] topsv QK [2.83 2.01 1.75 1.34]
+L1H1 frac k in Sout 0.460 q 0.012 v 0.001  sv(QK->Sout) [8.91 3.47] topsv QK [9.17 5.29 3.69 2.61]
+L1H2 frac k in Sout 0.428 q 0.012 v 0.001  sv(QK->Sout) [6.3  3.38] topsv QK [6.47 5.55 2.67 1.65]
+L1H3 frac k in Sout 0.469 q 0.016 v 0.001  sv(QK->Sout) [7.15 3.58] topsv QK [7.31 5.6  2.49 1.63]
+L1H4 frac k in Sout 0.447 q 0.013 v 0.001  sv(QK->Sout) [6.66 3.23] topsv QK [6.82 5.24 2.73 1.71]
+L1H5 frac k in Sout 0.411 q 0.010 v 0.001  sv(QK->Sout) [7.54 2.94] topsv QK [8.08 4.44 3.85 3.62]
+L2H0 frac k in Sout 0.063 q 0.003 v 0.000  sv(QK->Sout) [3.35 1.35] topsv QK [4.15 3.88 3.67 3.33]
+L2H1 frac k in Sout 0.004 q 0.002 v 0.001  sv(QK->Sout) [0.75 0.5 ] topsv QK [3.68 3.37 3.17 3.15]
+L2H2 frac k in Sout 0.122 q 0.005 v 0.001  sv(QK->Sout) [4.94 2.83] topsv QK [5.67 5.57 5.41 5.08]
+L2H3 frac k in Sout 0.126 q 0.005 v 0.000  sv(QK->Sout) [4.09 2.29] topsv QK [4.57 3.39 3.3  3.14]
+L2H4 frac k in Sout 0.108 q 0.006 v 0.000  sv(QK->Sout) [4.75 2.37] topsv QK [6.26 4.71 3.88 3.44]
+L2H5 frac k in Sout 0.045 q 0.002 v 0.000  sv(QK->Sout) [2.47 0.85] topsv QK [3.36 3.31 2.88 2.56]
+L3H0 frac k in Sout 0.014 q 0.001 v 0.001  sv(QK->Sout) [1.92 0.67] topsv QK [3.24 3.19 3.08 3.01]
+L3H1 frac k in Sout 0.006 q 0.002 v 0.000  sv(QK->Sout) [0.98 0.53] topsv QK [2.58 2.52 2.47 2.43]
+L3H2 frac k in Sout 0.029 q 0.002 v 0.001  sv(QK->Sout) [2.37 0.76] topsv QK [3.47 3.29 3.13 2.9 ]
+L3H3 frac k in Sout 0.009 q 0.002 v 0.001  sv(QK->Sout) [0.66 0.29] topsv QK [2.1  1.9  1.66 1.62]
+L3H4 frac k in Sout 0.022 q 0.002 v 0.001  sv(QK->Sout) [2.04 0.62] topsv QK [3.21 2.96 2.86 2.59]
+L3H5 frac k in Sout 0.003 q 0.002 v 0.003  sv(QK->Sout) [0.69 0.54] topsv QK [3.23 3.12 3.07 2.96]
+fc0 frac in Sin 0.0052391808 Sout 0.003173941
+1 fc frac in Sin 0.0044773445 Sout 0.0013413316
+2 fc frac in Sin 0.004459244 Sout 0.0016909813
+3 fc frac in Sin 0.0046819113 Sout 0.0014243867
+
+```

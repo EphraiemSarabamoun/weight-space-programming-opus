@@ -1,0 +1,15 @@
+{
+ "turns": 4,
+ "runs": 3,
+ "done": true,
+ "errors": [
+  {
+   "turn": 2,
+   "error": "You've hit your 5-hour limit \u00b7 resets 9:30pm (America/Los_Angeles)"
+  }
+ ],
+ "nudges": 0,
+ "session": "82e8a0e8-eb83-46d2-a2f9-4be92de0e14d",
+ "seat_dir": "<scratch>/seatvho33l_9",
+ "next": "OUTPUT of Python run 3 of at most 120:\n```\n3.0 [-303. -303. -303. -303. -303. -303. -303. -303. -303.] (512, 82) 900 ['L1.W', 'L1.b', 'L2.W', 'L2.b', 'L3.W', 'L3.b', 'L4.W', 'L4.b', 'L5.W', 'L5.b', 'L6.W', 'L6.b', 'out.W', 'out.b']\n\n```"
+}

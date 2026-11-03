@@ -1,0 +1,31 @@
+OUTPUT of run 10 of at most 100:
+```
+L0H4 OV restricted (out basis x in basis):
+ [[13.88  0.  ]
+ [-0.    9.65]]
+L0H0 QK on Sin:
+ [[ 0.083  0.022]
+ [ 0.194 -0.146]]
+L0H1 QK on Sin:
+ [[ 1.818 -1.671]
+ [ 3.977  1.441]]
+L0H2 QK on Sin:
+ [[0.751 0.222]
+ [0.08  0.353]]
+L0H3 QK on Sin:
+ [[-0.533  0.012]
+ [ 0.046 -0.638]]
+L0H4 QK on Sin:
+ [[-0.     0.001]
+ [-0.     0.001]]
+L0H5 QK on Sin:
+ [[ 1.539 -1.435]
+ [ 2.204  1.106]]
+1 (1.74+2.76j) overlap of plane with Sin [0.89 0.77]
+1 (-2.28+0j) overlap of plane with Sin [0. 0.]
+1 (-0.99-1.2j) overlap of plane with Sin [0. 0.]
+5 (1.66+2.2j) overlap of plane with Sin [0.65 0.68]
+5 (0.91+1.37j) overlap of plane with Sin [0. 0.]
+5 (1.43+0j) overlap of plane with Sin [0.01 0.  ]
+
+```

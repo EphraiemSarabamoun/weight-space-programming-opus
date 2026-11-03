@@ -1,0 +1,44 @@
+OUTPUT of run 16 of at most 100:
+```
+L3H0: q-read(16) energy in subspace / random expectation; k-read likewise
+   P(L0H2qk)  q  0.98  k  1.03
+   T(L0H2v)   q  1.03  k  1.19
+   A0.2out    q  1.12  k  1.10
+   B          q  0.37  k  3.20
+   M0out      q  1.11  k  1.12
+   L1out      q  1.24  k  1.11
+   M1out      q  0.92  k  1.02
+   L2out      q  1.18  k  0.91
+   M2out      q  0.80  k  0.89
+L3H1: q-read(16) energy in subspace / random expectation; k-read likewise
+   P(L0H2qk)  q  0.90  k  1.04
+   T(L0H2v)   q  1.28  k  0.98
+   A0.2out    q  1.37  k  2.40
+   B          q  0.80  k  0.54
+   M0out      q  1.43  k  1.14
+   L1out      q  1.43  k  1.60
+   M1out      q  0.66  k  0.60
+   L2out      q  1.28  k  1.82
+   M2out      q  0.31  k  0.24
+L3H5: q-read(16) energy in subspace / random expectation; k-read likewise
+   P(L0H2qk)  q  0.90  k  1.03
+   T(L0H2v)   q  0.89  k  0.93
+   A0.2out    q  0.81  k  0.97
+   B          q  0.86  k  1.31
+   M0out      q  1.02  k  0.95
+   L1out      q  0.98  k  0.98
+   M1out      q  0.86  k  0.99
+   L2out      q  1.31  k  1.05
+   M2out      q  0.97  k  1.46
+L2H1: q-read(16) energy in subspace / random expectation; k-read likewise
+   P(L0H2qk)  q  0.86  k  1.28
+   T(L0H2v)   q  1.02  k  1.56
+   A0.2out    q  1.37  k  1.12
+   B          q  0.63  k 12.70
+   M0out      q  1.28  k  1.36
+   L1out      q  1.73  k  1.02
+   M1out      q  1.18  k  1.27
+   L2out      q  0.89  k  0.79
+   M2out      q  0.96  k  0.91
+
+```

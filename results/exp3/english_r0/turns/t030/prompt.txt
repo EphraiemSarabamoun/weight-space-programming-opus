@@ -1,0 +1,16 @@
+OUTPUT of run 29 of at most 100:
+```
+L2H0 ind via L1 heads: +0.07 -0.07 -0.17 -0.01 -0.17 -0.04   QK-identity -0.01
+L2H1 ind via L1 heads: -0.10 -0.03 -0.07 -0.10 -0.03 -0.01   QK-identity +0.26
+L2H2 ind via L1 heads: -0.01 -0.02 +0.02 +0.02 +0.02 -0.04   QK-identity -0.69
+L2H3 ind via L1 heads: +0.05 +0.00 -0.03 -0.03 -0.03 +0.05   QK-identity -0.35
+L2H4 ind via L1 heads: +0.03 +0.00 -0.04 -0.01 -0.10 -0.04   QK-identity -0.20
+L2H5 ind via L1 heads: -0.01 +0.03 -0.12 -0.00 -0.05 +0.05   QK-identity -0.31
+L3H0 ind via L1 heads: -0.07 +0.08 +0.03 +0.01 +0.03 -0.04   QK-identity +1.53
+L3H1 ind via L1 heads: -0.16 -0.09 -0.20 -0.03 -0.12 -0.08   QK-identity +3.44
+L3H2 ind via L1 heads: -0.06 +0.00 +0.01 -0.07 +0.05 -0.01   QK-identity +0.15
+L3H3 ind via L1 heads: -0.06 +0.01 -0.11 +0.03 +0.04 -0.00   QK-identity +0.07
+L3H4 ind via L1 heads: +0.05 -0.02 -0.05 +0.01 +0.07 -0.05   QK-identity +0.49
+L3H5 ind via L1 heads: +0.02 -0.01 +0.05 +0.05 +0.01 +0.01   QK-identity +0.12
+
+```

@@ -1,0 +1,28 @@
+OUTPUT of run 35 of at most 100:
+```
+L0H0 |qbias| 0.34 key-only token pref norm 0.007  top abs comps [0.002 0.003 0.003]
+L0H1 |qbias| 0.67 key-only token pref norm 0.014  top abs comps [0.005 0.007 0.007]
+L0H2 |qbias| 0.31 key-only token pref norm 0.004  top abs comps [0.001 0.002 0.002]
+L0H3 |qbias| 0.65 key-only token pref norm 0.014  top abs comps [0.004 0.005 0.007]
+L0H4 |qbias| 0.06 key-only token pref norm 0.000  top abs comps [0. 0. 0.]
+L0H5 |qbias| 0.64 key-only token pref norm 0.009  top abs comps [0.003 0.003 0.003]
+L1H0 |qbias| 3.28 key-only token pref norm 0.208  top abs comps [0.063 0.08  0.112]
+L1H1 |qbias| 5.13 key-only token pref norm 0.517  top abs comps [0.139 0.211 0.281]
+L1H2 |qbias| 4.40 key-only token pref norm 0.363  top abs comps [0.092 0.136 0.201]
+L1H3 |qbias| 4.81 key-only token pref norm 0.466  top abs comps [0.174 0.181 0.249]
+L1H4 |qbias| 4.71 key-only token pref norm 0.429  top abs comps [0.128 0.145 0.152]
+L1H5 |qbias| 4.58 key-only token pref norm 0.534  top abs comps [0.183 0.204 0.285]
+L2H0 |qbias| 2.89 key-only token pref norm 0.173  top abs comps [0.05  0.063 0.112]
+L2H1 |qbias| 2.80 key-only token pref norm 0.131  top abs comps [0.044 0.046 0.058]
+L2H2 |qbias| 3.38 key-only token pref norm 0.148  top abs comps [0.042 0.067 0.068]
+L2H3 |qbias| 2.55 key-only token pref norm 0.192  top abs comps [0.059 0.062 0.097]
+L2H4 |qbias| 3.30 key-only token pref norm 0.222  top abs comps [0.066 0.069 0.076]
+L2H5 |qbias| 2.45 key-only token pref norm 0.164  top abs comps [0.054 0.063 0.081]
+L3H0 |qbias| 1.56 key-only token pref norm 0.073  top abs comps [0.023 0.035 0.04 ]
+L3H1 |qbias| 1.65 key-only token pref norm 0.069  top abs comps [0.025 0.026 0.029]
+L3H2 |qbias| 1.56 key-only token pref norm 0.090  top abs comps [0.03  0.033 0.059]
+L3H3 |qbias| 1.53 key-only token pref norm 0.056  top abs comps [0.017 0.021 0.026]
+L3H4 |qbias| 1.53 key-only token pref norm 0.084  top abs comps [0.032 0.033 0.034]
+L3H5 |qbias| 1.81 key-only token pref norm 0.081  top abs comps [0.027 0.029 0.031]
+
+```

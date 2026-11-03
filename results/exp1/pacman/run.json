@@ -1,0 +1,47 @@
+{
+ "model_requested": "claude-opus-5-5",
+ "model_reported": "claude-opus-5-5",
+ "model_usage": [
+  "claude-opus-5-5"
+ ],
+ "effort": "high",
+ "system_prompt": "Answer the user's request.",
+ "command": [
+  "claude",
+  "-p",
+  "--model",
+  "claude-opus-5-5",
+  "--effort",
+  "high",
+  "--tools",
+  "",
+  "--strict-mcp-config",
+  "--setting-sources",
+  "",
+  "--settings",
+  "{\"disableAllHooks\": true}",
+  "--system-prompt",
+  "Answer the user's request.",
+  "--output-format",
+  "stream-json",
+  "--verbose",
+  "--no-session-persistence"
+ ],
+ "resume": null,
+ "session_id": "d4db2fe7-4a6f-4563-8c6a-3d5eee1f3d79",
+ "wall_s": 109.5,
+ "is_error": false,
+ "result_text_if_error": null,
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 79613,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 13028
+ },
+ "audit": {
+  "tool_free": true,
+  "tool_uses": [],
+  "assistant_messages": 1
+ },
+ "attempts": 1
+}

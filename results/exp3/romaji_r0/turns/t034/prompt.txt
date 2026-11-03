@@ -1,0 +1,18 @@
+OUTPUT of run 33 of at most 100:
+```
+L3H3 OV sv [10.81  9.98  9.82  9.43  9.14  9.06  8.45  7.95  7.67  7.39  7.36  6.96
+  6.44  6.24  6.03  5.63  5.47  5.05  4.99  4.71  4.56  4.36  4.21  4.14
+  3.92  3.86  3.52  3.44  3.22  3.12  2.93  2.83  2.62  2.59  2.47  2.38
+  2.28  2.18  2.13  1.92]
+frac of each OV output dir in Wproj3 token-subspace(1..23): [0.29 0.28 0.33 0.29 0.37 0.27 0.36 0.33 0.37 0.35 0.25 0.31 0.42 0.47
+ 0.33 0.5  0.31 0.41 0.46 0.43 0.41 0.33 0.24 0.37 0.14 0.23 0.25 0.12
+ 0.16 0.12 0.04 0.08 0.09 0.11 0.08 0.04]
+W_proj.0 energy frac in U23 0.084 (rand 0.060)
+W_proj.1 energy frac in U23 0.066 (rand 0.060)
+W_proj.2 energy frac in U23 0.106 (rand 0.060)
+W_proj.3 energy frac in U23 0.810 (rand 0.060)
+W_o.1 energy frac in U23 0.051 (rand 0.060)
+W_o.2 energy frac in U23 0.054 (rand 0.060)
+W_o.3 energy frac in U23 0.114 (rand 0.060)
+
+```
