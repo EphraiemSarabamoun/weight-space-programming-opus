@@ -34,7 +34,7 @@ def networks():
 def main():
     os.makedirs(os.path.dirname(OUT), exist_ok=True)
     with open(OUT, "w", newline="") as f:
-        w = csv.writer(f)
+        w = csv.writer(f, lineterminator="\n")
         w.writerow(["network", "step", "body_x", "body_y", "body_angle", "green_wheel_x", "green_wheel_y",
                     "entry0_action"])
         for name, tensors in networks().items():

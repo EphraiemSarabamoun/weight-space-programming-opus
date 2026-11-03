@@ -55,7 +55,7 @@ def write_csv(name, header, rows):
     os.makedirs(DATA, exist_ok=True)
     path = os.path.join(DATA, name)
     with open(path, "w", newline="") as f:
-        w = csv.writer(f)
+        w = csv.writer(f, lineterminator="\n")
         w.writerow(header)
         w.writerows(rows)
     return path
